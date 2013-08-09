@@ -8,7 +8,7 @@ This is a drop in replacement for ADB. This program will provide the following f
   file.ext [ #############               ] [ 27% ]
 2. Has the ability to flash a zip file (requires openrecovery script supported Recovery)
 
-  a2db flash <zip_file_name.zip>
+  a2db flash zip_file_name.zip
 
 
 TODO: More to come
