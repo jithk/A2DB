@@ -11,4 +11,11 @@ This is a drop in replacement for ADB. This program will provide the following f
   a2db flash zip_file_name.zip
 
 
+Changelog:
+-----------
+20130808
+Initial Commit.
+Only the progress bar feature is working.
+
+
 TODO: More to come
