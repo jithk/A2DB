@@ -1,0 +1,1371 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADB_AUTH_RSAPUBLICKEY	adb_auth.h	30;"	d
+ADB_AUTH_SIGNATURE	adb_auth.h	29;"	d
+ADB_AUTH_TOKEN	adb_auth.h	27;"	d
+ADB_CLASS	adb.h	436;"	d
+ADB_KEY_FILE	adb_auth_host.c	51;"	d	file:
+ADB_LOCAL_TRANSPORT_MAX	transport_local.c	48;"	d	file:
+ADB_MUTEX	mutex_list.h	26;"	d
+ADB_MUTEX	sysdeps.h	317;"	d
+ADB_MUTEX	sysdeps.h	49;"	d
+ADB_MUTEX	sysdeps_win32.c	2138;"	d	file:
+ADB_MUTEX_DEFINE	sysdeps.h	307;"	d
+ADB_MUTEX_DEFINE	sysdeps.h	45;"	d
+ADB_MUTEX_INITIALIZER	sysdeps.h	301;"	d
+ADB_PROTOCOL	adb.h	438;"	d
+ADB_SERVER_VERSION	adb.h	39;"	d
+ADB_SUBCLASS	adb.h	437;"	d
+ADB_TRACE	adb.h	344;"	d
+ADB_TRACING	adb.h	385;"	d
+ADB_TRACING	adb.h	417;"	d
+ADB_VERSION_MAJOR	adb.h	36;"	d
+ADB_VERSION_MINOR	adb.h	37;"	d
+AFFINITY_ENVVAR	adb.c	997;"	d	file:
+ANDROID_ADB_INI	usb_vendors.c	34;"	d	file:
+ANDROID_PATH	adb_auth_host.c	50;"	d	file:
+ANDROID_PATH	usb_vendors.c	33;"	d	file:
+ARRAY_SIZE	adb.c	34;"	d	file:
+A_AUTH	adb.h	32;"	d
+A_CLSE	adb.h	30;"	d
+A_CNXN	adb.h	27;"	d
+A_OKAY	adb.h	29;"	d
+A_OPEN	adb.h	28;"	d
+A_SYNC	adb.h	26;"	d
+A_VERSION	adb.h	34;"	d
+A_WRTE	adb.h	31;"	d
+AdbTrace	adb.h	/^} AdbTrace;$/;"	t	typeref:enum:__anon9
+AndroidInterfaceAdded	usb_osx.c	/^AndroidInterfaceAdded(void *refCon, io_iterator_t iterator)$/;"	f	file:
+AndroidInterfaceNotify	usb_osx.c	/^AndroidInterfaceNotify(void *refCon, io_service_t service, natural_t messageType, void *messageArgument)$/;"	f	file:
+BACKUP	adb.h	/^    BACKUP,$/;"	e	enum:__anon8
+BEGIN	file_sync_client.c	/^static void BEGIN()$/;"	f	file:
+BIPD	sysdeps_win32.c	855;"	d	file:
+BIPDUMP	sysdeps_win32.c	856;"	d	file:
+BIP_BUFFER_SIZE	sysdeps_win32.c	827;"	d	file:
+BUFF_DECL	utils.h	65;"	d
+BUILT_IN_VENDOR_COUNT	usb_vendors.c	224;"	d	file:
+BackupOperation	adb.h	/^} BackupOperation;$/;"	t	typeref:enum:__anon8
+BipBuffer	sysdeps_win32.c	/^} BipBufferRec, *BipBuffer;$/;"	t	typeref:struct:BipBufferRec_	file:
+BipBufferRec	sysdeps_win32.c	/^} BipBufferRec, *BipBuffer;$/;"	t	typeref:struct:BipBufferRec_	file:
+BipBufferRec_	sysdeps_win32.c	/^typedef struct BipBufferRec_$/;"	s	file:
+CHUNK_SIZE	adb.h	476;"	d
+CS_ANY	adb.h	463;"	d
+CS_BOOTLOADER	adb.h	465;"	d
+CS_DEVICE	adb.h	466;"	d
+CS_HOST	adb.h	467;"	d
+CS_NOPERM	adb.h	469;"	d
+CS_OFFLINE	adb.h	464;"	d
+CS_RECOVERY	adb.h	468;"	d
+CS_SIDELOAD	adb.h	470;"	d
+CS_UNAUTHORIZED	adb.h	471;"	d
+CheckInterface	usb_osx.c	/^CheckInterface(IOUSBInterfaceInterface **interface, UInt16 vendor, UInt16 product)$/;"	f	file:
+D	adb.h	388;"	d
+D	adb.h	415;"	d
+D	fdevent.c	60;"	d	file:
+D	fdevent.c	81;"	d	file:
+DBG	usb_osx.c	33;"	d	file:
+DBGX	usb_linux.c	46;"	d	file:
+DDMS_RAWIMAGE_VERSION	framebuffer_service.c	38;"	d	file:
+DEBUG	fdevent.c	40;"	d	file:
+DEFAULT_ADB_LOCAL_TRANSPORT_PORT	adb.h	434;"	d
+DEFAULT_ADB_PORT	adb.h	429;"	d
+DEFAULT_ADB_PORT	adb.h	431;"	d
+DQ	adb.h	376;"	d
+DQ	adb.h	378;"	d
+DR	adb.h	402;"	d
+DR	adb.h	416;"	d
+DUMPMAX	adb.c	227;"	d	file:
+D_lock	adb.c	/^ADB_MUTEX_DEFINE( D_lock );$/;"	v
+END	file_sync_client.c	/^static void END()$/;"	f	file:
+ENV_PATH_SEPARATOR_STR	sysdeps.h	297;"	d
+ENV_PATH_SEPARATOR_STR	sysdeps.h	41;"	d
+EXTRA_SRCS	Android.mk	/^  EXTRA_SRCS := get_my_path_darwin.c$/;"	m
+EXTRA_SRCS	Android.mk	/^  EXTRA_SRCS := get_my_path_freebsd.c$/;"	m
+EXTRA_SRCS	Android.mk	/^  EXTRA_SRCS := get_my_path_linux.c$/;"	m
+EXTRA_SRCS	Android.mk	/^  EXTRA_SRCS := get_my_path_windows.c ..\/libcutils\/list.c$/;"	m
+EXTRA_SRCS	Android.mk	/^EXTRA_SRCS :=$/;"	m
+EXTRA_STATIC_LIBS	Android.mk	/^  EXTRA_STATIC_LIBS := AdbWinApi$/;"	m
+EventHook	sysdeps_win32.c	/^typedef struct EventHookRec_*  EventHook;$/;"	t	typeref:struct:EventHookRec_	file:
+EventHookRec	sysdeps_win32.c	/^} EventHookRec;$/;"	t	typeref:struct:EventHookRec_	file:
+EventHookRec_	sysdeps_win32.c	/^typedef struct EventHookRec_$/;"	s	file:
+EventLooper	sysdeps_win32.c	/^typedef struct EventLooperRec_*  EventLooper;$/;"	t	typeref:struct:EventLooperRec_	file:
+EventLooperRec	sysdeps_win32.c	/^} EventLooperRec;$/;"	t	typeref:struct:EventLooperRec_	file:
+EventLooperRec_	sysdeps_win32.c	/^typedef struct EventLooperRec_$/;"	s	file:
+FATAL	fdevent.c	57;"	d	file:
+FATAL	sysdeps_win32.c	1244;"	d	file:
+FDE_ACTIVE	fdevent.c	88;"	d	file:
+FDE_ACTIVE	sysdeps_win32.c	1262;"	d	file:
+FDE_CREATED	fdevent.c	90;"	d	file:
+FDE_CREATED	sysdeps_win32.c	1264;"	d	file:
+FDE_DONT_CLOSE	fdevent.h	29;"	d
+FDE_DONT_CLOSE	sysdeps.h	180;"	d
+FDE_ERROR	fdevent.h	25;"	d
+FDE_ERROR	sysdeps.h	179;"	d
+FDE_EVENTMASK	fdevent.c	85;"	d	file:
+FDE_EVENTMASK	sysdeps_win32.c	1259;"	d	file:
+FDE_PENDING	fdevent.c	89;"	d	file:
+FDE_PENDING	sysdeps_win32.c	1263;"	d	file:
+FDE_READ	fdevent.h	23;"	d
+FDE_READ	sysdeps.h	177;"	d
+FDE_STATEMASK	fdevent.c	86;"	d	file:
+FDE_STATEMASK	sysdeps_win32.c	1260;"	d	file:
+FDE_TIMEOUT	fdevent.h	26;"	d
+FDE_WRITE	fdevent.h	24;"	d
+FDE_WRITE	sysdeps.h	178;"	d
+FH	sysdeps_win32.c	/^typedef struct FHRec_*          FH;$/;"	t	typeref:struct:FHRec_	file:
+FHClass	sysdeps_win32.c	/^typedef const struct FHClassRec_*   FHClass;$/;"	t	typeref:struct:FHClassRec_	file:
+FHClassRec	sysdeps_win32.c	/^} FHClassRec;$/;"	t	typeref:struct:FHClassRec_	file:
+FHClassRec_	sysdeps_win32.c	/^typedef struct FHClassRec_$/;"	s	file:
+FHRec	sysdeps_win32.c	/^} FHRec;$/;"	t	typeref:struct:FHRec_	file:
+FHRec_	sysdeps_win32.c	/^typedef struct FHRec_$/;"	s	file:
+H4	transport_local.c	29;"	d	file:
+H4	transport_usb.c	31;"	d	file:
+HOST	adb.c	/^int HOST = 0;$/;"	v
+ID_DATA	file_sync_service.h	44;"	d
+ID_DENT	file_sync_service.h	42;"	d
+ID_DONE	file_sync_service.h	43;"	d
+ID_FAIL	file_sync_service.h	46;"	d
+ID_LIST	file_sync_service.h	38;"	d
+ID_OKAY	file_sync_service.h	45;"	d
+ID_QUIT	file_sync_service.h	47;"	d
+ID_RECV	file_sync_service.h	41;"	d
+ID_SEND	file_sync_service.h	40;"	d
+ID_STAT	file_sync_service.h	37;"	d
+ID_ULNK	file_sync_service.h	39;"	d
+INSTALL_STATUS_CANNOT_BIND	adb.c	/^  INSTALL_STATUS_CANNOT_BIND = -2,$/;"	e	enum:__anon7	file:
+INSTALL_STATUS_CANNOT_REBIND	adb.c	/^  INSTALL_STATUS_CANNOT_REBIND = -3,$/;"	e	enum:__anon7	file:
+INSTALL_STATUS_INTERNAL_ERROR	adb.c	/^  INSTALL_STATUS_INTERNAL_ERROR = -1,$/;"	e	enum:__anon7	file:
+INSTALL_STATUS_OK	adb.c	/^  INSTALL_STATUS_OK = 0,$/;"	e	enum:__anon7	file:
+InitUSB	usb_osx.c	/^InitUSB()$/;"	f	file:
+JDWP_CONTROL_NAME	jdwp_service.c	433;"	d	file:
+JDWP_CONTROL_NAME_LEN	jdwp_service.c	434;"	d	file:
+JdwpControl	jdwp_service.c	/^} JdwpControl;$/;"	t	typeref:struct:__anon17	file:
+JdwpProcess	jdwp_service.c	/^struct JdwpProcess {$/;"	s	file:
+JdwpProcess	jdwp_service.c	/^typedef struct JdwpProcess  JdwpProcess;$/;"	t	typeref:struct:JdwpProcess	file:
+JdwpSocket	jdwp_service.c	/^} JdwpSocket;$/;"	t	typeref:struct:__anon18	file:
+JdwpTracker	jdwp_service.c	/^struct JdwpTracker {$/;"	s	file:
+JdwpTracker	jdwp_service.c	/^typedef struct JdwpTracker  JdwpTracker;$/;"	t	typeref:struct:JdwpTracker	file:
+LISTEN_BACKLOG	sysdeps_win32.c	614;"	d	file:
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := -O2 -g -DADB_HOST=0 -Wall -Wno-unused-parameter$/;"	m
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := \\$/;"	m
+LOCAL_CLIENT_PREFIX	adb.h	244;"	d
+LOCAL_FORCE_STATIC_EXECUTABLE	Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_LDLIBS	Android.mk	/^LOCAL_LDLIBS := -lrt -ldl -lpthread$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := adb$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := adbd$/;"	m
+LOCAL_MODULE_PATH	Android.mk	/^LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT_SBIN)$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := debug$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := libcrypto$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := libcutils libc libmincrypt$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := libzipfile libunz libcrypto_static $(EXTRA_STATIC_LIBS)$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := libzipfile libunz libcutils$/;"	m
+LOCAL_UNSTRIPPED_PATH	Android.mk	/^LOCAL_UNSTRIPPED_PATH := $(TARGET_ROOT_OUT_SBIN_UNSTRIPPED)$/;"	m
+LOG_FILE_DIR	log_service.c	29;"	d	file:
+MAX_DUMP_HEX_LEN	transport.c	38;"	d	file:
+MAX_LOOPER_HANDLES	sysdeps_win32.c	1352;"	d	file:
+MAX_OUT_FDS	jdwp_service.c	97;"	d	file:
+MAX_PACKET_SIZE_FS	usb_linux_client.c	34;"	d	file:
+MAX_PACKET_SIZE_HS	usb_linux_client.c	35;"	d	file:
+MAX_PAYLOAD	adb.h	24;"	d
+MKID	file_sync_service.h	30;"	d
+MKID	file_sync_service.h	34;"	d
+NOW	file_sync_client.c	/^static long long NOW()$/;"	f	file:
+OS_PATH_SEPARATOR	sysdeps.h	295;"	d
+OS_PATH_SEPARATOR	sysdeps.h	39;"	d
+OS_PATH_SEPARATOR_STR	sysdeps.h	296;"	d
+OS_PATH_SEPARATOR_STR	sysdeps.h	40;"	d
+PREFIX	sockets.c	611;"	d	file:
+QUIT	console.c	35;"	d	file:
+RESTORE	adb.h	/^    RESTORE$/;"	e	enum:__anon8
+RSA_to_RSAPublicKey	adb_auth_host.c	/^static int RSA_to_RSAPublicKey(RSA *rsa, RSAPublicKey *pkey)$/;"	f	file:
+RSA_verify	adb_auth_host.c	36;"	d	file:
+RSA_verify	adb_auth_host.c	38;"	d	file:
+RunLoopThread	usb_osx.c	/^void* RunLoopThread(void* unused)$/;"	f
+SAFE_SPRINTF	fdevent.c	334;"	d	file:
+SENTINEL_FILE	commandline.c	783;"	d	file:
+SHELL_COMMAND	services.c	335;"	d	file:
+SHELL_COMMAND	services.c	337;"	d	file:
+SHELL_EXIT_NOTIFY_FD	fdevent.c	/^int SHELL_EXIT_NOTIFY_FD = -1;$/;"	v
+STR_INTERFACE_	usb_linux_client.c	126;"	d	file:
+SYNC_DATA_MAX	file_sync_service.h	85;"	d
+S_ISLNK	sysdeps.h	88;"	d
+SocketPair	sysdeps_win32.c	/^typedef struct SocketPairRec_*  SocketPair;$/;"	t	typeref:struct:SocketPairRec_	file:
+SocketPairRec	sysdeps_win32.c	/^} SocketPairRec;$/;"	t	typeref:struct:SocketPairRec_	file:
+SocketPairRec_	sysdeps_win32.c	/^typedef struct SocketPairRec_$/;"	s	file:
+TEMP_FAILURE_RETRY	sysdeps.h	287;"	d
+TOKEN_SIZE	adb.h	169;"	d
+TRACE_ADB	adb.h	/^    TRACE_ADB = 0,   \/* 0x001 *\/$/;"	e	enum:__anon9
+TRACE_AUTH	adb.h	/^    TRACE_AUTH,$/;"	e	enum:__anon9
+TRACE_JDWP	adb.h	/^    TRACE_JDWP,      \/* 0x100 *\/$/;"	e	enum:__anon9
+TRACE_PACKETS	adb.h	/^    TRACE_PACKETS,$/;"	e	enum:__anon9
+TRACE_RWX	adb.h	/^    TRACE_RWX,       \/* 0x010 *\/$/;"	e	enum:__anon9
+TRACE_SERVICES	adb.h	/^    TRACE_SERVICES,$/;"	e	enum:__anon9
+TRACE_SOCKETS	adb.h	/^    TRACE_SOCKETS,$/;"	e	enum:__anon9
+TRACE_SYNC	adb.h	/^    TRACE_SYNC,$/;"	e	enum:__anon9
+TRACE_SYSDEPS	adb.h	/^    TRACE_SYSDEPS,$/;"	e	enum:__anon9
+TRACE_TAG	adb.c	17;"	d	file:
+TRACE_TAG	adb_auth_client.c	29;"	d	file:
+TRACE_TAG	adb_auth_host.c	48;"	d	file:
+TRACE_TAG	adb_client.c	13;"	d	file:
+TRACE_TAG	backup_service.c	22;"	d	file:
+TRACE_TAG	commandline.c	35;"	d	file:
+TRACE_TAG	file_sync_service.c	30;"	d	file:
+TRACE_TAG	jdwp_service.c	3;"	d	file:
+TRACE_TAG	remount_service.c	27;"	d	file:
+TRACE_TAG	services.c	25;"	d	file:
+TRACE_TAG	sockets.c	26;"	d	file:
+TRACE_TAG	sysdeps_win32.c	6;"	d	file:
+TRACE_TAG	transport.c	1098;"	d	file:
+TRACE_TAG	transport.c	1099;"	d	file:
+TRACE_TAG	transport.c	25;"	d	file:
+TRACE_TAG	transport_local.c	25;"	d	file:
+TRACE_TAG	transport_usb.c	23;"	d	file:
+TRACE_TAG	usb_libusb.c	37;"	d	file:
+TRACE_TAG	usb_linux.c	41;"	d	file:
+TRACE_TAG	usb_linux_client.c	31;"	d	file:
+TRACE_TAG	usb_osx.c	29;"	d	file:
+TRACE_TAG	usb_vendors.c	36;"	d	file:
+TRACE_TAG	usb_windows.c	26;"	d	file:
+TRACE_TRANSPORT	adb.h	/^    TRACE_TRANSPORT,$/;"	e	enum:__anon9
+TRACE_USB	adb.h	/^    TRACE_USB,$/;"	e	enum:__anon9
+USB_ADB_PATH	adb.h	479;"	d
+USB_FFS_ADB_EP	adb.h	482;"	d
+USB_FFS_ADB_EP0	adb.h	484;"	d
+USB_FFS_ADB_IN	adb.h	486;"	d
+USB_FFS_ADB_OUT	adb.h	485;"	d
+USB_FFS_ADB_PATH	adb.h	481;"	d
+USB_SRCS	Android.mk	/^  USB_SRCS := usb_libusb.c$/;"	m
+USB_SRCS	Android.mk	/^  USB_SRCS := usb_linux.c$/;"	m
+USB_SRCS	Android.mk	/^  USB_SRCS := usb_osx.c$/;"	m
+USB_SRCS	Android.mk	/^  USB_SRCS := usb_windows.c$/;"	m
+USB_SRCS	Android.mk	/^USB_SRCS :=$/;"	m
+USE_SYSDEPS_WIN32	Android.mk	/^    USE_SYSDEPS_WIN32 := 1$/;"	m
+VENDOR_COUNT_MAX	usb_vendors.c	227;"	d	file:
+VENDOR_ID_ACER	usb_vendors.c	53;"	d	file:
+VENDOR_ID_ANYDATA	usb_vendors.c	135;"	d	file:
+VENDOR_ID_ARCHOS	usb_vendors.c	113;"	d	file:
+VENDOR_ID_ASUS	usb_vendors.c	87;"	d	file:
+VENDOR_ID_BYD	usb_vendors.c	143;"	d	file:
+VENDOR_ID_COMPAL	usb_vendors.c	99;"	d	file:
+VENDOR_ID_DELL	usb_vendors.c	59;"	d	file:
+VENDOR_ID_ECS	usb_vendors.c	157;"	d	file:
+VENDOR_ID_FOXCONN	usb_vendors.c	57;"	d	file:
+VENDOR_ID_FUJITSU	usb_vendors.c	117;"	d	file:
+VENDOR_ID_FUNAI	usb_vendors.c	93;"	d	file:
+VENDOR_ID_GARMIN_ASUS	usb_vendors.c	63;"	d	file:
+VENDOR_ID_GIGABYTE	usb_vendors.c	95;"	d	file:
+VENDOR_ID_GOOGLE	usb_vendors.c	39;"	d	file:
+VENDOR_ID_HAIER	usb_vendors.c	147;"	d	file:
+VENDOR_ID_HARRIS	usb_vendors.c	137;"	d	file:
+VENDOR_ID_HISENSE	usb_vendors.c	149;"	d	file:
+VENDOR_ID_HTC	usb_vendors.c	43;"	d	file:
+VENDOR_ID_HUAWEI	usb_vendors.c	51;"	d	file:
+VENDOR_ID_INQ_MOBILE	usb_vendors.c	123;"	d	file:
+VENDOR_ID_INTEL	usb_vendors.c	41;"	d	file:
+VENDOR_ID_IRIVER	usb_vendors.c	97;"	d	file:
+VENDOR_ID_KOBO	usb_vendors.c	131;"	d	file:
+VENDOR_ID_KT_TECH	usb_vendors.c	85;"	d	file:
+VENDOR_ID_KYOCERA	usb_vendors.c	69;"	d	file:
+VENDOR_ID_K_TOUCH	usb_vendors.c	109;"	d	file:
+VENDOR_ID_LAB126	usb_vendors.c	127;"	d	file:
+VENDOR_ID_LENOVO	usb_vendors.c	105;"	d	file:
+VENDOR_ID_LENOVOMOBILE	usb_vendors.c	103;"	d	file:
+VENDOR_ID_LGE	usb_vendors.c	49;"	d	file:
+VENDOR_ID_LUMIGON	usb_vendors.c	119;"	d	file:
+VENDOR_ID_MOTOROLA	usb_vendors.c	47;"	d	file:
+VENDOR_ID_MTK	usb_vendors.c	151;"	d	file:
+VENDOR_ID_NEC	usb_vendors.c	77;"	d	file:
+VENDOR_ID_NOOK	usb_vendors.c	153;"	d	file:
+VENDOR_ID_NVIDIA	usb_vendors.c	61;"	d	file:
+VENDOR_ID_OPPO	usb_vendors.c	139;"	d	file:
+VENDOR_ID_OTGV	usb_vendors.c	75;"	d	file:
+VENDOR_ID_OUYA	usb_vendors.c	145;"	d	file:
+VENDOR_ID_PANTECH	usb_vendors.c	71;"	d	file:
+VENDOR_ID_PEGATRON	usb_vendors.c	111;"	d	file:
+VENDOR_ID_PHILIPS	usb_vendors.c	89;"	d	file:
+VENDOR_ID_PMC	usb_vendors.c	79;"	d	file:
+VENDOR_ID_POSITIVO	usb_vendors.c	115;"	d	file:
+VENDOR_ID_QISDA	usb_vendors.c	155;"	d	file:
+VENDOR_ID_QUALCOMM	usb_vendors.c	73;"	d	file:
+VENDOR_ID_QUANTA	usb_vendors.c	121;"	d	file:
+VENDOR_ID_SAMSUNG	usb_vendors.c	45;"	d	file:
+VENDOR_ID_SHARP	usb_vendors.c	65;"	d	file:
+VENDOR_ID_SK_TELESYS	usb_vendors.c	83;"	d	file:
+VENDOR_ID_SONY	usb_vendors.c	125;"	d	file:
+VENDOR_ID_SONY_ERICSSON	usb_vendors.c	55;"	d	file:
+VENDOR_ID_TELEEPOCH	usb_vendors.c	133;"	d	file:
+VENDOR_ID_TI	usb_vendors.c	91;"	d	file:
+VENDOR_ID_TOSHIBA	usb_vendors.c	81;"	d	file:
+VENDOR_ID_T_AND_A	usb_vendors.c	101;"	d	file:
+VENDOR_ID_VIZIO	usb_vendors.c	107;"	d	file:
+VENDOR_ID_XIAOMI	usb_vendors.c	141;"	d	file:
+VENDOR_ID_YULONG_COOLPAD	usb_vendors.c	129;"	d	file:
+VENDOR_ID_ZTE	usb_vendors.c	67;"	d	file:
+WAIT_ALL_CHUNK_SIZE	sysdeps_win32.c	1448;"	d	file:
+WIN32_FH_BASE	sysdeps_win32.c	115;"	d	file:
+WIN32_LEAN_AND_MEAN	adb_auth_host.c	20;"	d	file:
+WIN32_LEAN_AND_MEAN	usb_vendors.c	22;"	d	file:
+WIN32_MAX_FHS	sysdeps_win32.c	117;"	d	file:
+WaitForAllParam	sysdeps_win32.c	/^typedef struct WaitForAllParam {$/;"	s	file:
+WaitForAllParam	sysdeps_win32.c	/^} WaitForAllParam;$/;"	t	typeref:struct:WaitForAllParam	file:
+_ADB_CLIENT_H_	adb_client.h	2;"	d
+_ADB_SYSDEPS_H	sysdeps.h	21;"	d
+_ADB_UTILS_H	utils.h	17;"	d
+_FILE_SYNC_SERVICE_H_	file_sync_service.h	18;"	d
+_WIN32	sysdeps.h	24;"	d
+__ADB_AUTH_H	adb_auth.h	18;"	d
+__ADB_H	adb.h	18;"	d
+__FDEVENT_H	fdevent.h	18;"	d
+__TRANSPORT_H	transport.h	18;"	d
+__USB_VENDORS_H	usb_vendors.h	18;"	d
+__adb_error	adb_client.c	/^static char __adb_error[256] = { 0 };$/;"	v	file:
+__adb_serial	adb_client.c	/^static const char* __adb_serial = NULL;$/;"	v	file:
+__adb_server_name	adb_client.c	/^static const char* __adb_server_name = NULL;$/;"	v	file:
+__adb_server_port	adb_client.c	/^static int __adb_server_port = DEFAULT_ADB_PORT;$/;"	v	file:
+__adb_transport	adb_client.c	/^static transport_type __adb_transport = kTransportAny;$/;"	v	file:
+__swap_uint32	file_sync_service.h	/^static inline unsigned __swap_uint32(unsigned x) $/;"	f
+_adb_connect	adb_client.c	/^int _adb_connect(const char *service)$/;"	f
+_cleanup_winsock	sysdeps_win32.c	/^_cleanup_winsock( void )$/;"	f	file:
+_event_file_peek	sysdeps_win32.c	/^static int  _event_file_peek( EventHook  hook )$/;"	f	file:
+_event_file_prepare	sysdeps_win32.c	/^static void  _event_file_prepare( EventHook  hook )$/;"	f	file:
+_event_socket_check	sysdeps_win32.c	/^static int  _event_socket_check( EventHook  hook )$/;"	f	file:
+_event_socket_peek	sysdeps_win32.c	/^static int  _event_socket_peek( EventHook  hook )$/;"	f	file:
+_event_socket_prepare	sysdeps_win32.c	/^static void  _event_socket_prepare( EventHook  hook )$/;"	f	file:
+_event_socket_start	sysdeps_win32.c	/^static int _event_socket_start( EventHook  hook )$/;"	f	file:
+_event_socket_stop	sysdeps_win32.c	/^static void _event_socket_stop( EventHook  hook )$/;"	f	file:
+_event_socket_verify	sysdeps_win32.c	/^static void  _event_socket_verify( EventHook  hook, WSANETWORKEVENTS*  evts )$/;"	f	file:
+_event_socketpair_peek	sysdeps_win32.c	/^static int  _event_socketpair_peek( EventHook  hook )$/;"	f	file:
+_event_socketpair_prepare	sysdeps_win32.c	/^static void  _event_socketpair_prepare( EventHook  hook )$/;"	f	file:
+_event_socketpair_start	sysdeps_win32.c	/^ static int  _event_socketpair_start( EventHook  hook )$/;"	f	file:
+_fh_alloc	sysdeps_win32.c	/^_fh_alloc( FHClass  clazz )$/;"	f	file:
+_fh_close	sysdeps_win32.c	/^    int  (*_fh_close)( FH  f );$/;"	m	struct:FHClassRec_	file:
+_fh_close	sysdeps_win32.c	/^_fh_close( FH   f )$/;"	f	file:
+_fh_file_class	sysdeps_win32.c	/^static const FHClassRec   _fh_file_class;$/;"	v	file:
+_fh_file_class	sysdeps_win32.c	/^static const FHClassRec  _fh_file_class =$/;"	v	file:
+_fh_file_close	sysdeps_win32.c	/^_fh_file_close( FH  f )$/;"	f	file:
+_fh_file_hook	sysdeps_win32.c	/^static void  _fh_file_hook( FH  f, int  events, EventHook  hook )$/;"	f	file:
+_fh_file_init	sysdeps_win32.c	/^_fh_file_init( FH  f )$/;"	f	file:
+_fh_file_lseek	sysdeps_win32.c	/^_fh_file_lseek( FH  f, int  pos, int  origin )$/;"	f	file:
+_fh_file_read	sysdeps_win32.c	/^_fh_file_read( FH  f,  void*  buf, int   len )$/;"	f	file:
+_fh_file_write	sysdeps_win32.c	/^_fh_file_write( FH  f,  const void*  buf, int   len )$/;"	f	file:
+_fh_from_int	sysdeps_win32.c	/^_fh_from_int( int   fd )$/;"	f	file:
+_fh_hook	sysdeps_win32.c	/^    void (*_fh_hook) ( FH  f, int  events, EventHook  hook );$/;"	m	struct:FHClassRec_	file:
+_fh_init	sysdeps_win32.c	/^    void (*_fh_init) ( FH  f );$/;"	m	struct:FHClassRec_	file:
+_fh_lseek	sysdeps_win32.c	/^    int  (*_fh_lseek)( FH  f, int  pos, int  origin );$/;"	m	struct:FHClassRec_	file:
+_fh_read	sysdeps_win32.c	/^    int  (*_fh_read) ( FH  f, void*  buf, int  len );$/;"	m	struct:FHClassRec_	file:
+_fh_socket_class	sysdeps_win32.c	/^static const FHClassRec   _fh_socket_class;$/;"	v	file:
+_fh_socket_class	sysdeps_win32.c	/^static const FHClassRec  _fh_socket_class =$/;"	v	file:
+_fh_socket_close	sysdeps_win32.c	/^_fh_socket_close( FH  f )$/;"	f	file:
+_fh_socket_hook	sysdeps_win32.c	/^static void  _fh_socket_hook( FH  f, int  events, EventHook  hook )$/;"	f	file:
+_fh_socket_init	sysdeps_win32.c	/^_fh_socket_init( FH  f )$/;"	f	file:
+_fh_socket_lseek	sysdeps_win32.c	/^_fh_socket_lseek( FH  f, int pos, int origin )$/;"	f	file:
+_fh_socket_read	sysdeps_win32.c	/^_fh_socket_read( FH  f, void*  buf, int  len )$/;"	f	file:
+_fh_socket_write	sysdeps_win32.c	/^_fh_socket_write( FH  f, const void*  buf, int  len )$/;"	f	file:
+_fh_socketpair_class	sysdeps_win32.c	/^static const FHClassRec  _fh_socketpair_class =$/;"	v	file:
+_fh_socketpair_close	sysdeps_win32.c	/^_fh_socketpair_close( FH  f )$/;"	f	file:
+_fh_socketpair_hook	sysdeps_win32.c	/^static void  _fh_socketpair_hook( FH  fh, int  events, EventHook  hook )$/;"	f	file:
+_fh_socketpair_init	sysdeps_win32.c	/^void _fh_socketpair_init( FH  f )$/;"	f
+_fh_socketpair_lseek	sysdeps_win32.c	/^_fh_socketpair_lseek( FH  f, int pos, int  origin )$/;"	f	file:
+_fh_socketpair_read	sysdeps_win32.c	/^_fh_socketpair_read( FH  f, void* buf, int  len )$/;"	f	file:
+_fh_socketpair_write	sysdeps_win32.c	/^_fh_socketpair_write( FH  f, const void*  buf, int  len )$/;"	f	file:
+_fh_to_int	sysdeps_win32.c	/^_fh_to_int( FH  f )$/;"	f	file:
+_fh_write	sysdeps_win32.c	/^    int  (*_fh_write)( FH  f, const void*  buf, int  len );$/;"	m	struct:FHClassRec_	file:
+_free_hooks	sysdeps_win32.c	/^static EventHook  _free_hooks;$/;"	v	file:
+_in_waiter_thread	sysdeps_win32.c	/^_in_waiter_thread(void*  arg)$/;"	f	file:
+_init_winsock	sysdeps_win32.c	/^_init_winsock( void )$/;"	f	file:
+_jdwp_control	jdwp_service.c	/^static JdwpControl   _jdwp_control;$/;"	v	file:
+_jdwp_list	jdwp_service.c	/^static JdwpProcess  _jdwp_list;$/;"	v	file:
+_jdwp_trackers_list	jdwp_service.c	/^static JdwpTracker   _jdwp_trackers_list;$/;"	v	file:
+_socket_set_errno	sysdeps_win32.c	/^_socket_set_errno( void )$/;"	f	file:
+_socket_wanted_to_flags	sysdeps_win32.c	/^static int  _socket_wanted_to_flags( int  wanted )$/;"	f	file:
+_wait_for_all	sysdeps_win32.c	/^_wait_for_all(HANDLE* handles, int handles_count)$/;"	f	file:
+_win32_fh_count	sysdeps_win32.c	/^static  int          _win32_fh_count;$/;"	v	file:
+_win32_fhs	sysdeps_win32.c	/^static  FHRec        _win32_fhs[ WIN32_MAX_FHS ];$/;"	v	file:
+_win32_lock	sysdeps_win32.c	/^static adb_mutex_t   _win32_lock;$/;"	v	file:
+_winsock_init	sysdeps_win32.c	/^static int  _winsock_init;$/;"	v	file:
+a2b_bip	sysdeps_win32.c	/^    BipBufferRec  a2b_bip;$/;"	m	struct:SocketPairRec_	file:
+a_end	sysdeps_win32.c	/^    int                a_end;$/;"	m	struct:BipBufferRec_	file:
+a_fd	sysdeps_win32.c	/^    FH            a_fd;$/;"	m	struct:SocketPairRec_	file:
+a_start	sysdeps_win32.c	/^    int                a_start;$/;"	m	struct:BipBufferRec_	file:
+accept	sysdeps.h	216;"	d
+accept	sysdeps.h	217;"	d
+accept	sysdeps.h	427;"	d
+accept	sysdeps.h	428;"	d
+accept	sysdeps_win32.c	751;"	d	file:
+acquire_one_transport	transport.c	/^atransport *acquire_one_transport(int state, transport_type ttype, const char* serial, char** error_out)$/;"	f
+action	transport.c	/^    int         action;$/;"	m	struct:tmsg	file:
+adb_auth_confirm_key	adb_auth.h	/^static inline void adb_auth_confirm_key(unsigned char *data, size_t len, atransport *t) { }$/;"	f
+adb_auth_confirm_key	adb_auth_client.c	/^void adb_auth_confirm_key(unsigned char *key, size_t len, atransport *t)$/;"	f
+adb_auth_event	adb_auth_client.c	/^static void adb_auth_event(int fd, unsigned events, void *data)$/;"	f	file:
+adb_auth_generate_token	adb_auth.h	/^static inline int adb_auth_generate_token(void *token, size_t token_size) { return 0; }$/;"	f
+adb_auth_generate_token	adb_auth_client.c	/^int adb_auth_generate_token(void *token, size_t token_size)$/;"	f
+adb_auth_get_userkey	adb_auth.h	/^static inline int adb_auth_get_userkey(unsigned char *data, size_t len) { return 0; }$/;"	f
+adb_auth_get_userkey	adb_auth_host.c	/^int adb_auth_get_userkey(unsigned char *data, size_t len)$/;"	f
+adb_auth_init	adb_auth_client.c	/^void adb_auth_init(void)$/;"	f
+adb_auth_init	adb_auth_host.c	/^void adb_auth_init(void)$/;"	f
+adb_auth_listener	adb_auth_client.c	/^static void adb_auth_listener(int fd, unsigned events, void *data)$/;"	f	file:
+adb_auth_nextkey	adb_auth.h	/^static inline void *adb_auth_nextkey(void *current) { return NULL; }$/;"	f
+adb_auth_nextkey	adb_auth_host.c	/^void *adb_auth_nextkey(void *current)$/;"	f
+adb_auth_sign	adb_auth.h	/^static inline int adb_auth_sign(void* key, void *token, size_t token_size, void *sig) { return 0; }$/;"	f
+adb_auth_sign	adb_auth_host.c	/^int adb_auth_sign(void *node, void *token, size_t token_size, void *sig)$/;"	f
+adb_auth_verified	adb.c	/^void adb_auth_verified(atransport *t)$/;"	f
+adb_auth_verify	adb_auth.h	/^static inline int adb_auth_verify(void *token, void *sig, int siglen) { return 0; }$/;"	f
+adb_auth_verify	adb_auth_client.c	/^int adb_auth_verify(void *token, void *sig, int siglen)$/;"	f
+adb_cleanup	adb.c	/^static void adb_cleanup(void)$/;"	f	file:
+adb_close	sysdeps.h	/^static __inline__ int  adb_close(int fd)$/;"	f
+adb_close	sysdeps_win32.c	/^int  adb_close(int  fd)$/;"	f
+adb_command	adb_client.c	/^int adb_command(const char *service)$/;"	f
+adb_commandline	commandline.c	/^int adb_commandline(int argc, char **argv)$/;"	f
+adb_cond_broadcast	sysdeps.h	312;"	d
+adb_cond_destroy	sysdeps.h	314;"	d
+adb_cond_init	sysdeps.h	310;"	d
+adb_cond_signal	sysdeps.h	313;"	d
+adb_cond_t	sysdeps.h	309;"	d
+adb_cond_wait	sysdeps.h	311;"	d
+adb_connect	adb_client.c	/^int adb_connect(const char *service)$/;"	f
+adb_creat	sysdeps.h	/^static __inline__  int  adb_creat(const char*  path, int  mode)$/;"	f
+adb_creat	sysdeps_win32.c	/^int  adb_creat(const char*  path, int  mode)$/;"	f
+adb_debug_qemu	adb.c	/^int   adb_debug_qemu = -1;$/;"	v
+adb_device_banner	adb.c	/^static const char *adb_device_banner = "device";$/;"	v	file:
+adb_dirstart	sysdeps.h	/^static __inline__  char*  adb_dirstart( const char*  path )$/;"	f
+adb_dirstart	sysdeps.h	/^static __inline__ char*  adb_dirstart(const char*  path)$/;"	f
+adb_dirstop	sysdeps.h	/^static __inline__  char*  adb_dirstop( const char*  path )$/;"	f
+adb_dirstop	sysdeps.h	/^static __inline__ char*  adb_dirstop(const char*  path)$/;"	f
+adb_download	commandline.c	/^int adb_download(const char *service, const char *fn, unsigned progress)$/;"	f
+adb_download_buffer	commandline.c	/^int adb_download_buffer(const char *service, const char *fn, const void* data, int sz,$/;"	f
+adb_error	adb_client.c	/^const char *adb_error(void)$/;"	f
+adb_get_emulator_console_port	adb_client.c	/^int  adb_get_emulator_console_port(void)$/;"	f
+adb_interface	usb_windows.c	/^  ADBAPIHANDLE  adb_interface;$/;"	m	struct:usb_handle	file:
+adb_is_absolute_host_path	sysdeps.h	/^static __inline__  int  adb_is_absolute_host_path( const char*  path )$/;"	f
+adb_lseek	sysdeps.h	/^static __inline__ int   adb_lseek(int  fd, int  pos, int  where)$/;"	f
+adb_lseek	sysdeps_win32.c	/^int  adb_lseek(int  fd, int  pos, int  where)$/;"	f
+adb_main	adb.c	/^int adb_main(int is_daemon, int server_port)$/;"	f
+adb_mkdir	sysdeps.h	/^static __inline__ int  adb_mkdir(const char*  path, int mode)$/;"	f
+adb_mutex_destroy	sysdeps.h	305;"	d
+adb_mutex_init	sysdeps.h	302;"	d
+adb_mutex_lock	sysdeps.h	/^static __inline__ void adb_mutex_lock( adb_mutex_t*  lock )$/;"	f
+adb_mutex_lock	sysdeps.h	303;"	d
+adb_mutex_t	sysdeps.h	/^typedef  pthread_mutex_t          adb_mutex_t;$/;"	t
+adb_mutex_t	sysdeps.h	/^typedef CRITICAL_SECTION          adb_mutex_t;$/;"	t
+adb_mutex_unlock	sysdeps.h	/^static __inline__ void  adb_mutex_unlock( adb_mutex_t*  lock )$/;"	f
+adb_mutex_unlock	sysdeps.h	304;"	d
+adb_open	sysdeps.h	/^static __inline__ int  adb_open( const char*  pathname, int  options )$/;"	f
+adb_open	sysdeps_win32.c	/^int  adb_open(const char*  path, int  options)$/;"	f
+adb_open_mode	sysdeps.h	/^static __inline__ int  adb_open_mode( const char*  pathname, int  options, int  mode )$/;"	f
+adb_open_mode	sysdeps.h	/^static __inline__ int  adb_open_mode(const char* path, int options, int mode)$/;"	f
+adb_port	adb.h	/^    int adb_port; \/\/ Use for emulators (local transport)$/;"	m	struct:atransport
+adb_private_key	adb_auth_host.c	/^struct adb_private_key {$/;"	s	file:
+adb_public_key	adb_auth_client.c	/^struct adb_public_key {$/;"	s	file:
+adb_qemu_trace	adb.c	/^void adb_qemu_trace(const char* fmt, ...)$/;"	f
+adb_qemu_trace_init	adb.c	/^static int adb_qemu_trace_init(void)$/;"	f	file:
+adb_query	adb_client.c	/^char *adb_query(const char *service)$/;"	f
+adb_read	sysdeps.h	/^static __inline__  int  adb_read(int  fd, void*  buf, size_t  len)$/;"	f
+adb_read	sysdeps_win32.c	/^int  adb_read(int  fd, void* buf, int len)$/;"	f
+adb_read_pipe	usb_windows.c	/^  ADBAPIHANDLE  adb_read_pipe;$/;"	m	struct:usb_handle	file:
+adb_send_emulator_command	console.c	/^int  adb_send_emulator_command(int  argc, char**  argv)$/;"	f
+adb_set_affinity	adb.c	/^void adb_set_affinity(void)$/;"	f
+adb_set_tcp_name	adb_client.c	/^void adb_set_tcp_name(const char* hostname)$/;"	f
+adb_set_tcp_specifics	adb_client.c	/^void adb_set_tcp_specifics(int server_port)$/;"	f
+adb_set_transport	adb_client.c	/^void adb_set_transport(transport_type type, const char* serial)$/;"	f
+adb_shutdown	sysdeps.h	/^static __inline__ int  adb_shutdown(int fd)$/;"	f
+adb_shutdown	sysdeps_win32.c	/^int  adb_shutdown(int  fd)$/;"	f
+adb_sleep_ms	sysdeps.h	/^static __inline__ void  adb_sleep_ms( int  mseconds )$/;"	f
+adb_socket_accept	sysdeps.h	/^static __inline__ int  adb_socket_accept(int  serverfd, struct sockaddr*  addr, socklen_t  *addrlen)$/;"	f
+adb_socket_accept	sysdeps_win32.c	/^int  adb_socket_accept(int  serverfd, struct sockaddr*  addr, socklen_t  *addrlen)$/;"	f
+adb_socket_setbufsize	sysdeps.h	/^static __inline__  int  adb_socket_setbufsize( int   fd, int  bufsize )$/;"	f
+adb_socketpair	sysdeps.h	/^static __inline__ int  adb_socketpair( int  sv[2] )$/;"	f
+adb_socketpair	sysdeps_win32.c	/^int  adb_socketpair( int  sv[2] )$/;"	f
+adb_status	adb_client.c	/^int adb_status(int fd)$/;"	f
+adb_strtok_r	sysdeps.h	/^static __inline__ char*  adb_strtok_r(char *str, const char *delim, char **saveptr)$/;"	f
+adb_strtok_r	sysdeps_win32.c	/^adb_strtok_r(char *s, const char *delim, char **last)$/;"	f
+adb_sysdeps_init	sysdeps.h	/^static __inline__ void  adb_sysdeps_init(void)$/;"	f
+adb_sysdeps_init	sysdeps_win32.c	/^adb_sysdeps_init( void )$/;"	f
+adb_thread_create	sysdeps.h	/^static __inline__ int  adb_thread_create( adb_thread_t  *pthread, adb_thread_func_t  start, void*  arg )$/;"	f
+adb_thread_create	sysdeps.h	/^static __inline__ int  adb_thread_create( adb_thread_t  *thread, adb_thread_func_t  func, void*  arg)$/;"	f
+adb_thread_func_t	sysdeps.h	/^typedef  void*  (*adb_thread_func_t)(void*  arg);$/;"	t
+adb_thread_func_t	sysdeps.h	/^typedef void*  (*adb_thread_func_t)( void*  arg );$/;"	t
+adb_thread_t	sysdeps.h	/^typedef  pthread_t                 adb_thread_t;$/;"	t
+adb_thread_t	sysdeps.h	/^typedef struct { unsigned  tid; }  adb_thread_t;$/;"	t	typeref:struct:__anon19
+adb_trace_init	adb.c	/^void  adb_trace_init(void)$/;"	f
+adb_trace_mask	adb.c	/^int   adb_trace_mask;$/;"	v
+adb_unlink	sysdeps.h	/^static __inline__  int    adb_unlink(const char*  path)$/;"	f
+adb_write	sysdeps.h	/^static __inline__  int  adb_write(int  fd, const void*  buf, size_t  len)$/;"	f
+adb_write	sysdeps_win32.c	/^int  adb_write(int  fd, const void*  buf, int  len)$/;"	f
+adb_write_pipe	usb_windows.c	/^  ADBAPIHANDLE  adb_write_pipe;$/;"	m	struct:usb_handle	file:
+add_qual	transport.c	/^static void add_qual(char **buf, size_t *buf_size,$/;"	f	file:
+add_transport_disconnect	transport.c	/^void add_transport_disconnect(atransport*  t, adisconnect*  dis)$/;"	f
+adisconnect	adb.h	/^struct  adisconnect$/;"	s
+adisconnect	adb.h	/^typedef struct adisconnect  adisconnect;$/;"	t	typeref:struct:adisconnect
+alistener	adb.h	/^struct alistener$/;"	s
+alistener	adb.h	/^typedef struct alistener alistener;$/;"	t	typeref:struct:alistener
+alpha_length	framebuffer_service.c	/^    unsigned int alpha_length;$/;"	m	struct:fbinfo	file:
+alpha_offset	framebuffer_service.c	/^    unsigned int alpha_offset;$/;"	m	struct:fbinfo	file:
+already_registered	usb_libusb.c	/^already_registered(usb_handle *uh)$/;"	f
+amessage	adb.h	/^struct amessage {$/;"	s
+amessage	adb.h	/^typedef struct amessage amessage;$/;"	t	typeref:struct:amessage
+apacket	adb.h	/^struct apacket$/;"	s
+apacket	adb.h	/^typedef struct apacket apacket;$/;"	t	typeref:struct:apacket
+aremotesocket	sockets.c	/^typedef struct aremotesocket {$/;"	s	file:
+aremotesocket	sockets.c	/^} aremotesocket;$/;"	t	typeref:struct:aremotesocket	file:
+arg	fdevent.h	/^    void *arg;$/;"	m	struct:fdevent
+arg	sysdeps.h	/^    void *arg;$/;"	m	struct:fdevent
+arg0	adb.h	/^    unsigned arg0;          \/* first argument                   *\/$/;"	m	struct:amessage
+arg1	adb.h	/^    unsigned arg1;          \/* second argument                  *\/$/;"	m	struct:amessage
+aservice	adb.h	/^typedef struct aservice aservice;$/;"	t	typeref:struct:aservice
+asocket	adb.h	/^struct asocket {$/;"	s
+asocket	adb.h	/^typedef struct asocket asocket;$/;"	t	typeref:struct:asocket
+assert	sysdeps_win32.c	11;"	d	file:
+atransport	adb.h	/^struct atransport$/;"	s
+atransport	adb.h	/^typedef struct atransport atransport;$/;"	t	typeref:struct:atransport
+auth_enabled	adb.c	/^static int auth_enabled = 0;$/;"	v	file:
+auth_fde	adb.h	/^    fdevent auth_fde;$/;"	m	struct:atransport
+aux	sysdeps_win32.c	/^    void*        aux;$/;"	m	struct:EventHookRec_	file:
+b2a_bip	sysdeps_win32.c	/^    BipBufferRec  b2a_bip;$/;"	m	struct:SocketPairRec_	file:
+b_end	sysdeps_win32.c	/^    int                b_end;$/;"	m	struct:BipBufferRec_	file:
+backup	commandline.c	/^static int backup(int argc, char** argv) {$/;"	f	file:
+backup_child_waiter	backup_service.c	/^static void* backup_child_waiter(void* args) {$/;"	f	file:
+backup_harvest_params	backup_service.c	/^} backup_harvest_params;$/;"	t	typeref:struct:__anon6	file:
+backup_service	backup_service.c	/^int backup_service(BackupOperation op, char* args) {$/;"	f
+backup_socketpair	backup_service.c	/^static int backup_socketpair(int sv[2]) {$/;"	f	file:
+badname	usb_linux.c	/^static inline int badname(const char *name)$/;"	f	file:
+bip_buffer_close	sysdeps_win32.c	/^bip_buffer_close( BipBuffer  bip )$/;"	f	file:
+bip_buffer_done	sysdeps_win32.c	/^bip_buffer_done( BipBuffer  bip )$/;"	f	file:
+bip_buffer_init	sysdeps_win32.c	/^bip_buffer_init( BipBuffer  buffer )$/;"	f	file:
+bip_buffer_read	sysdeps_win32.c	/^bip_buffer_read( BipBuffer  bip, void*  dst, int  len )$/;"	f	file:
+bip_buffer_write	sysdeps_win32.c	/^bip_buffer_write( BipBuffer  bip, const void* src, int  len )$/;"	f	file:
+blue_length	framebuffer_service.c	/^    unsigned int blue_length;$/;"	m	struct:fbinfo	file:
+blue_offset	framebuffer_service.c	/^    unsigned int blue_offset;$/;"	m	struct:fbinfo	file:
+bpp	framebuffer_service.c	/^    unsigned int bpp;$/;"	m	struct:fbinfo	file:
+buff	sysdeps_win32.c	/^    unsigned char      buff[ BIP_BUFFER_SIZE ];$/;"	m	struct:BipBufferRec_	file:
+buff_add	utils.c	/^buff_add  (char*  buff, char*  buffEnd, const char*  format, ... )$/;"	f
+buff_addb	utils.c	/^buff_addb (char*  buff, char*  buffEnd, const void*  data, int  len)$/;"	f
+buff_addc	utils.c	/^buff_addc (char*  buff, char*  buffEnd, int  c)$/;"	f
+buff_adds	utils.c	/^buff_adds (char*  buff, char*  buffEnd, const char*  s)$/;"	f
+build_local_name	adb.c	/^void build_local_name(char* target_str, size_t target_size, int server_port)$/;"	f
+build_path	usb_vendors.c	/^int build_path(char* buff, size_t len, const char* format, const char* home)$/;"	f
+builtInVendorIds	usb_vendors.c	/^int builtInVendorIds[] = {$/;"	v
+bulkIn	usb_osx.c	/^    UInt8                     bulkIn;$/;"	m	struct:usb_handle	file:
+bulkOut	usb_osx.c	/^    UInt8                     bulkOut;$/;"	m	struct:usb_handle	file:
+bulk_in	usb_linux_client.c	/^    int bulk_in;  \/* "in" from the host's perspective => sink for adbd *\/$/;"	m	struct:usb_handle	file:
+bulk_out	usb_linux_client.c	/^    int bulk_out; \/* "out" from the host's perspective => source for adbd *\/$/;"	m	struct:usb_handle	file:
+bulk_read	usb_linux_client.c	/^static int bulk_read(int bulk_out, char *buf, size_t length)$/;"	f	file:
+bulk_write	usb_linux_client.c	/^static int bulk_write(int bulk_in, const char *buf, size_t length)$/;"	f	file:
+can_read	sysdeps_win32.c	/^    int                can_read;   \/* boolean *\/$/;"	m	struct:BipBufferRec_	file:
+can_write	sysdeps_win32.c	/^    int                can_write;  \/* boolean *\/$/;"	m	struct:BipBufferRec_	file:
+check	sysdeps_win32.c	/^    int         (*check)  ( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+check_data	transport.c	/^int check_data(apacket *p)$/;"	f
+check_device	usb_libusb.c	/^check_device(libusb_device *dev) $/;"	f
+check_device_connected	usb_libusb.c	/^check_device_connected(struct usb_handle *uh)$/;"	f
+check_file	commandline.c	/^static int check_file(const char* filename)$/;"	f	file:
+check_header	transport.c	/^int check_header(apacket *p)$/;"	f
+check_usb_interface	usb_libusb.c	/^check_usb_interface(libusb_interface *interface,$/;"	f
+check_usb_interfaces	usb_libusb.c	/^check_usb_interfaces(libusb_config_descriptor *config,$/;"	f
+clazz	sysdeps_win32.c	/^    FHClass    clazz;$/;"	m	struct:FHRec_	file:
+client_socket_thread	transport_local.c	/^static void *client_socket_thread(void *x)$/;"	f	file:
+close	adb.h	/^    void (*close)(asocket *s);$/;"	m	struct:asocket
+close	adb.h	/^    void (*close)(atransport *t);$/;"	m	struct:atransport
+close	sysdeps.h	125;"	d
+close	sysdeps.h	126;"	d
+close	sysdeps.h	370;"	d
+close	sysdeps.h	371;"	d
+close_all_sockets	sockets.c	/^void close_all_sockets(atransport *t)$/;"	f
+close_on_exec	sysdeps.h	/^static __inline__ void  close_on_exec(int  fd)$/;"	f
+close_usb_devices	transport.c	/^void close_usb_devices()$/;"	f
+closed	sysdeps_win32.c	/^    int                closed;$/;"	m	struct:BipBufferRec_	file:
+closing	adb.h	/^    int    closing;$/;"	m	struct:asocket
+code	usb_linux_client.c	/^        __le16 code;$/;"	m	struct:__anon3::__anon4	file:
+command	adb.h	/^    unsigned command;       \/* command identifier constant      *\/$/;"	m	struct:amessage
+connect_device	adb.c	/^void connect_device(char* host, char* buffer, int buffer_size)$/;"	f
+connect_emulator	adb.c	/^void connect_emulator(char* port_spec, char* buffer, int buffer_size)$/;"	f
+connect_to	adb.h	/^    const char *connect_to;$/;"	m	struct:alistener
+connect_to_console	console.c	/^static int  connect_to_console(void)$/;"	f	file:
+connect_to_remote	sockets.c	/^void connect_to_remote(asocket *s, const char *destination)$/;"	f
+connect_to_smartsocket	sockets.c	/^void connect_to_smartsocket(asocket *s)$/;"	f
+connection_state	adb.h	/^    int connection_state;$/;"	m	struct:atransport
+connection_state_name	adb.c	/^static char *connection_state_name(atransport *t)$/;"	f	file:
+control	usb_linux_client.c	/^    int control;$/;"	m	struct:usb_handle	file:
+cookie	services.c	/^    void *cookie;$/;"	m	struct:stinfo	file:
+copy_local_dir_remote	file_sync_client.c	/^static int copy_local_dir_remote(int fd, const char *lpath, const char *rpath, int checktimestamps, int listonly)$/;"	f	file:
+copy_remote_dir_local	file_sync_client.c	/^static int copy_remote_dir_local(int fd, const char *rpath, const char *lpath,$/;"	f	file:
+copy_to_file	commandline.c	/^static void copy_to_file(int inFd, int outFd) {$/;"	f	file:
+copyinfo	file_sync_client.c	/^struct copyinfo$/;"	s	file:
+copyinfo	file_sync_client.c	/^typedef struct copyinfo copyinfo;$/;"	t	typeref:struct:copyinfo	file:
+cpu_to_le16	usb_linux_client.c	37;"	d	file:
+cpu_to_le32	usb_linux_client.c	38;"	d	file:
+creat	sysdeps.h	413;"	d
+creat	sysdeps.h	414;"	d
+create_device_tracker	transport.c	/^create_device_tracker(void)$/;"	f
+create_host_service_socket	sockets.c	/^static asocket *create_host_service_socket(const char *name, const char* serial)$/;"	f	file:
+create_jdwp_connection_fd	jdwp_service.c	/^create_jdwp_connection_fd(int  pid)$/;"	f
+create_jdwp_service_socket	jdwp_service.c	/^create_jdwp_service_socket( void )$/;"	f
+create_jdwp_tracker_service_socket	jdwp_service.c	/^create_jdwp_tracker_service_socket( void )$/;"	f
+create_local_service_socket	sockets.c	/^asocket *create_local_service_socket(const char *name)$/;"	f
+create_local_socket	sockets.c	/^asocket *create_local_socket(int fd)$/;"	f
+create_remote_socket	sockets.c	/^asocket *create_remote_socket(unsigned id, atransport *t)$/;"	f
+create_service_thread	services.c	/^static int create_service_thread(void (*func)(int, void *), void *cookie)$/;"	f	file:
+create_smart_socket	sockets.c	/^asocket *create_smart_socket(void (*action_cb)(asocket *s, const char *act))$/;"	f
+create_subproc_thread	services.c	/^static int create_subproc_thread(const char *name)$/;"	f	file:
+create_subprocess	services.c	/^static int create_subprocess(const char *cmd, const char *arg0, const char *arg1, pid_t *pid)$/;"	f	file:
+ctrlc_handler	adb.c	/^static BOOL WINAPI ctrlc_handler(DWORD type)$/;"	f	file:
+ctx	usb_libusb.c	/^static libusb_context *ctx = NULL;$/;"	v	file:
+currentRunLoop	usb_osx.c	/^static CFRunLoopRef currentRunLoop = 0;$/;"	v	file:
+data	adb.h	/^    unsigned char data[MAX_PAYLOAD];$/;"	m	struct:apacket
+data	file_sync_client.c	/^    char data[SYNC_DATA_MAX];$/;"	m	struct:syncsendbuf	file:
+data	file_sync_service.h	/^    } data;$/;"	m	union:__anon10	typeref:struct:__anon10::__anon14
+data_check	adb.h	/^    unsigned data_check;    \/* checksum of data payload         *\/$/;"	m	struct:amessage
+data_length	adb.h	/^    unsigned data_length;   \/* length of payload (0 is allowed) *\/$/;"	m	struct:amessage
+dead	usb_linux.c	/^    int dead;$/;"	m	struct:usb_handle	file:
+delete_file	commandline.c	/^static int delete_file(transport_type transport, char* serial, char* filename)$/;"	f	file:
+dent	file_sync_service.h	/^    } dent;$/;"	m	union:__anon10	typeref:struct:__anon10::__anon13
+desc	usb_linux.c	/^    int desc;$/;"	m	struct:usb_handle	file:
+descriptors	usb_linux_client.c	/^} __attribute__((packed)) descriptors = {$/;"	v	typeref:struct:__anon1	file:
+dev	usb_libusb.c	/^    libusb_device         *dev;$/;"	m	struct:usb_handle	file:
+dev_addr	usb_libusb.c	/^    uint8_t               dev_addr;$/;"	m	struct:usb_handle	file:
+dev_bus	usb_libusb.c	/^    uint8_t               dev_bus;$/;"	m	struct:usb_handle	file:
+devh	usb_libusb.c	/^    libusb_device_handle  *devh;$/;"	m	struct:usb_handle	file:
+device	adb.h	/^    char *device;$/;"	m	struct:atransport
+device_poll_thread	usb_libusb.c	/^device_poll_thread(void* unused)$/;"	f
+device_poll_thread	usb_linux.c	/^void* device_poll_thread(void* unused)$/;"	f
+device_poll_thread	usb_windows.c	/^void* device_poll_thread(void* unused) {$/;"	f
+device_tracker	transport.c	/^struct device_tracker {$/;"	s	file:
+device_tracker	transport.c	/^typedef struct device_tracker  device_tracker;$/;"	t	typeref:struct:device_tracker	file:
+device_tracker_close	transport.c	/^device_tracker_close( asocket*  socket )$/;"	f	file:
+device_tracker_enqueue	transport.c	/^device_tracker_enqueue( asocket*  socket, apacket*  p )$/;"	f	file:
+device_tracker_list	transport.c	/^static device_tracker*   device_tracker_list;$/;"	v	file:
+device_tracker_ready	transport.c	/^device_tracker_ready( asocket*  socket )$/;"	f	file:
+device_tracker_remove	transport.c	/^device_tracker_remove( device_tracker*  tracker )$/;"	f	file:
+device_tracker_send	transport.c	/^device_tracker_send( device_tracker*  tracker,$/;"	f	file:
+devpath	adb.h	/^    char *devpath;$/;"	m	struct:atransport
+dirlist	file_sync_client.c	/^    copyinfo **dirlist;$/;"	m	struct:__anon5	file:
+disable_tcp_nagle	sysdeps.h	/^static __inline__ void  disable_tcp_nagle(int fd)$/;"	f
+disable_tcp_nagle	sysdeps_win32.c	/^void  disable_tcp_nagle(int fd)$/;"	f
+disconnect	adb.h	/^    adisconnect  disconnect;$/;"	m	struct:alistener
+disconnect	sockets.c	/^    adisconnect  disconnect;$/;"	m	struct:aremotesocket	file:
+disconnects	adb.h	/^    adisconnect  disconnects;$/;"	m	struct:atransport
+dns_lock	services.c	/^ADB_MUTEX_DEFINE( dns_lock );$/;"	v
+dns_service	services.c	/^static void dns_service(int fd, void *cookie)$/;"	f	file:
+do_cmd	commandline.c	/^static int do_cmd(transport_type ttype, char* serial, char *cmd, ...)$/;"	f	file:
+do_list	file_sync_service.c	/^static int do_list(int s, const char *path)$/;"	f	file:
+do_recv	file_sync_service.c	/^static int do_recv(int s, const char *path, char *buffer)$/;"	f	file:
+do_send	file_sync_service.c	/^static int do_send(int s, char *path, char *buffer)$/;"	f	file:
+do_stat	file_sync_service.c	/^static int do_stat(int s, const char *path)$/;"	f	file:
+do_sync_ls	file_sync_client.c	/^int do_sync_ls(const char *path)$/;"	f
+do_sync_ls_cb	file_sync_client.c	/^static void do_sync_ls_cb(unsigned mode, unsigned size, unsigned time,$/;"	f	file:
+do_sync_pull	file_sync_client.c	/^int do_sync_pull(const char *rpath, const char *lpath)$/;"	f
+do_sync_push	file_sync_client.c	/^int do_sync_push(const char *lpath, const char *rpath, int verifyApk)$/;"	f
+do_sync_sync	file_sync_client.c	/^int do_sync_sync(const char *lpath, const char *rpath, int listonly)$/;"	f
+do_usb_open	usb_windows.c	/^usb_handle* do_usb_open(const wchar_t* interface_name) {$/;"	f
+drop_capabilities_bounding_set_if_needed	adb.c	/^static void drop_capabilities_bounding_set_if_needed() {$/;"	f	file:
+dst	file_sync_client.c	/^    const char *dst;$/;"	m	struct:copyinfo	file:
+dump_all_fds	fdevent.c	/^static inline void dump_all_fds(const char *extra_msg) {}$/;"	f	file:
+dump_all_fds	fdevent.c	/^static void dump_all_fds(const char *extra_msg)$/;"	f	file:
+dump_fde	fdevent.c	/^static void dump_fde(fdevent *fde, const char *info)$/;"	f	file:
+dump_fde	fdevent.c	82;"	d	file:
+dump_fde	sysdeps_win32.c	/^static void dump_fde(fdevent *fde, const char *info)$/;"	f	file:
+dump_fde	sysdeps_win32.c	1256;"	d	file:
+dump_hex	transport.c	/^static void  dump_hex( const unsigned char*  ptr, size_t  len )$/;"	f	file:
+dump_packet	transport.c	/^dump_packet(const char* name, const char* func, apacket* p)$/;"	f	file:
+dupAndQuote	commandline.c	/^dupAndQuote(const char *s)$/;"	f	file:
+end_point_address	usb_libusb.c	/^    unsigned char         end_point_address[2];$/;"	m	struct:usb_handle	file:
+enqueue	adb.h	/^    int (*enqueue)(asocket *s, apacket *pkt);$/;"	m	struct:asocket
+eof	sysdeps_win32.c	/^    int        eof;$/;"	m	struct:FHRec_	file:
+ep_in	usb_linux.c	/^    unsigned char ep_in;$/;"	m	struct:usb_handle	file:
+ep_out	usb_linux.c	/^    unsigned char ep_out;$/;"	m	struct:usb_handle	file:
+epoll_fd	fdevent.c	/^static int epoll_fd = -1;$/;"	v	file:
+error_fds	fdevent.c	/^static fd_set error_fds;$/;"	v	file:
+event	sysdeps_win32.c	/^    HANDLE    event;$/;"	m	struct:FHRec_	file:
+event_hook_alloc	sysdeps_win32.c	/^event_hook_alloc( FH  fh )$/;"	f	file:
+event_hook_free	sysdeps_win32.c	/^event_hook_free( EventHook  hook )$/;"	f	file:
+event_hook_signal	sysdeps_win32.c	/^event_hook_signal( EventHook  hook )$/;"	f	file:
+event_looper_find_p	sysdeps_win32.c	/^event_looper_find_p( EventLooper  looper, FH  fh )$/;"	f	file:
+event_looper_hook	sysdeps_win32.c	/^event_looper_hook( EventLooper  looper, int  fd, int  events )$/;"	f	file:
+event_looper_unhook	sysdeps_win32.c	/^event_looper_unhook( EventLooper  looper, int  fd, int  events )$/;"	f	file:
+events	fdevent.h	/^    unsigned short events;$/;"	m	struct:fdevent
+events	sysdeps.h	/^    unsigned short events;$/;"	m	struct:fdevent
+evt_read	sysdeps_win32.c	/^    HANDLE             evt_read;   \/* event signaled when one can read from a buffer *\/$/;"	m	struct:BipBufferRec_	file:
+evt_write	sysdeps_win32.c	/^    HANDLE             evt_write;  \/* event signaled when one can write to a buffer  *\/$/;"	m	struct:BipBufferRec_	file:
+exit_on_close	adb.h	/^    int    exit_on_close;$/;"	m	struct:asocket
+extra	adb.h	/^    void *extra;$/;"	m	struct:asocket
+fail_errno	file_sync_service.c	/^static int fail_errno(int s)$/;"	f	file:
+fail_message	file_sync_service.c	/^static int fail_message(int s, const char *reason)$/;"	f	file:
+failed_auth_attempts	adb.h	/^    unsigned failed_auth_attempts;$/;"	m	struct:atransport
+fatal	adb.c	/^void fatal(const char *fmt, ...)$/;"	f
+fatal	fdevent.c	/^static void fatal(const char *fn, const char *fmt, ...)$/;"	f	file:
+fatal_errno	adb.c	/^void fatal_errno(const char *fmt, ...)$/;"	f
+fbinfo	framebuffer_service.c	/^struct fbinfo {$/;"	s	file:
+fd	adb.h	/^    int fd;$/;"	m	struct:alistener
+fd	adb.h	/^    int fd;$/;"	m	struct:asocket
+fd	adb.h	/^    int fd;$/;"	m	struct:atransport
+fd	backup_service.c	/^    int fd;$/;"	m	struct:__anon6	file:
+fd	fdevent.h	/^    int fd;$/;"	m	struct:fdevent
+fd	services.c	/^    int fd;$/;"	m	struct:stinfo	file:
+fd	sysdeps.h	/^    int fd;$/;"	m	struct:fdevent
+fd	usb_linux_client.c	/^    int fd;$/;"	m	struct:usb_handle	file:
+fd_func	fdevent.h	/^typedef void (*fd_func)(int fd, unsigned events, void *userdata);$/;"	t
+fd_func	sysdeps.h	/^typedef void (*fd_func)(int fd, unsigned events, void *userdata);$/;"	t
+fd_table	fdevent.c	/^static fdevent **fd_table = 0;$/;"	v	file:
+fd_table	sysdeps_win32.c	/^static fdevent **fd_table = 0;$/;"	v	file:
+fd_table_max	fdevent.c	/^static int fd_table_max = 0;$/;"	v	file:
+fd_table_max	sysdeps_win32.c	/^static int       fd_table_max = 0;$/;"	v	file:
+fde	adb.h	/^    fdevent fde;$/;"	m	struct:alistener
+fde	adb.h	/^    fdevent fde;$/;"	m	struct:asocket
+fde	jdwp_service.c	/^    fdevent*      fde;$/;"	m	struct:JdwpProcess	file:
+fde	jdwp_service.c	/^    fdevent*  fde;$/;"	m	struct:__anon17	file:
+fdevent	fdevent.h	/^struct fdevent $/;"	s
+fdevent	fdevent.h	/^typedef struct fdevent fdevent;$/;"	t	typeref:struct:fdevent
+fdevent	sysdeps.h	/^struct fdevent {$/;"	s
+fdevent	sysdeps.h	/^typedef struct fdevent fdevent;$/;"	t	typeref:struct:fdevent
+fdevent_add	fdevent.c	/^void fdevent_add(fdevent *fde, unsigned events)$/;"	f
+fdevent_add	sysdeps_win32.c	/^void fdevent_add(fdevent *fde, unsigned events)$/;"	f
+fdevent_call_fdfunc	fdevent.c	/^static void fdevent_call_fdfunc(fdevent* fde)$/;"	f	file:
+fdevent_connect	fdevent.c	/^static void fdevent_connect(fdevent *fde)$/;"	f	file:
+fdevent_connect	sysdeps_win32.c	/^static void fdevent_connect(fdevent *fde)$/;"	f	file:
+fdevent_create	fdevent.c	/^fdevent *fdevent_create(int fd, fd_func func, void *arg)$/;"	f
+fdevent_create	sysdeps_win32.c	/^fdevent *fdevent_create(int fd, fd_func func, void *arg)$/;"	f
+fdevent_del	fdevent.c	/^void fdevent_del(fdevent *fde, unsigned events)$/;"	f
+fdevent_del	sysdeps_win32.c	/^void fdevent_del(fdevent *fde, unsigned events)$/;"	f
+fdevent_destroy	fdevent.c	/^void fdevent_destroy(fdevent *fde)$/;"	f
+fdevent_destroy	sysdeps_win32.c	/^void fdevent_destroy(fdevent *fde)$/;"	f
+fdevent_disconnect	fdevent.c	/^static void fdevent_disconnect(fdevent *fde)$/;"	f	file:
+fdevent_disconnect	sysdeps_win32.c	/^static void fdevent_disconnect(fdevent *fde)$/;"	f	file:
+fdevent_fd_check	fdevent.c	/^static int fdevent_fd_check(fd_set *fds)$/;"	f	file:
+fdevent_init	fdevent.c	/^static void fdevent_init()$/;"	f	file:
+fdevent_init	fdevent.c	/^static void fdevent_init(void)$/;"	f	file:
+fdevent_init	sysdeps_win32.c	/^static void fdevent_init(void)$/;"	f	file:
+fdevent_install	fdevent.c	/^void fdevent_install(fdevent *fde, int fd, fd_func func, void *arg)$/;"	f
+fdevent_install	sysdeps_win32.c	/^void fdevent_install(fdevent *fde, int fd, fd_func func, void *arg)$/;"	f
+fdevent_loop	fdevent.c	/^void fdevent_loop()$/;"	f
+fdevent_loop	sysdeps_win32.c	/^void fdevent_loop()$/;"	f
+fdevent_plist_dequeue	fdevent.c	/^static fdevent *fdevent_plist_dequeue(void)$/;"	f	file:
+fdevent_plist_dequeue	sysdeps_win32.c	/^static fdevent *fdevent_plist_dequeue(void)$/;"	f	file:
+fdevent_plist_enqueue	fdevent.c	/^static void fdevent_plist_enqueue(fdevent *node)$/;"	f	file:
+fdevent_plist_enqueue	sysdeps_win32.c	/^static void fdevent_plist_enqueue(fdevent *node)$/;"	f	file:
+fdevent_plist_remove	fdevent.c	/^static void fdevent_plist_remove(fdevent *node)$/;"	f	file:
+fdevent_plist_remove	sysdeps_win32.c	/^static void fdevent_plist_remove(fdevent *node)$/;"	f	file:
+fdevent_process	fdevent.c	/^static void fdevent_process()$/;"	f	file:
+fdevent_process	sysdeps_win32.c	/^static void fdevent_process()$/;"	f	file:
+fdevent_register	fdevent.c	/^static void fdevent_register(fdevent *fde)$/;"	f	file:
+fdevent_register	sysdeps_win32.c	/^static void fdevent_register(fdevent *fde)$/;"	f	file:
+fdevent_remove	fdevent.c	/^void fdevent_remove(fdevent *fde)$/;"	f
+fdevent_remove	sysdeps_win32.c	/^void fdevent_remove(fdevent *fde)$/;"	f
+fdevent_set	fdevent.c	/^void fdevent_set(fdevent *fde, unsigned events)$/;"	f
+fdevent_set	sysdeps_win32.c	/^void fdevent_set(fdevent *fde, unsigned events)$/;"	f
+fdevent_subproc_event_func	fdevent.c	/^static void fdevent_subproc_event_func(int fd, unsigned ev, void *userdata)$/;"	f	file:
+fdevent_subproc_setup	fdevent.c	/^void fdevent_subproc_setup()$/;"	f
+fdevent_unregister	fdevent.c	/^static void fdevent_unregister(fdevent *fde)$/;"	f	file:
+fdevent_unregister	sysdeps_win32.c	/^static void fdevent_unregister(fdevent *fde)$/;"	f	file:
+fdevent_update	fdevent.c	/^static void fdevent_update(fdevent *fde, unsigned events)$/;"	f	file:
+fdevent_update	sysdeps_win32.c	/^static void fdevent_update(fdevent *fde, unsigned events)$/;"	f	file:
+fdin	sysdeps_win32.c	/^    int                fdin;$/;"	m	struct:BipBufferRec_	file:
+fdout	sysdeps_win32.c	/^    int                fdout;$/;"	m	struct:BipBufferRec_	file:
+fh	sysdeps_win32.c	/^    FH           fh;$/;"	m	struct:EventHookRec_	file:
+fh_handle	sysdeps_win32.c	111;"	d	file:
+fh_pair	sysdeps_win32.c	113;"	d	file:
+fh_socket	sysdeps_win32.c	112;"	d	file:
+file_sync_service	file_sync_service.c	/^void file_sync_service(int fd, void *cookie)$/;"	f
+filelist	file_sync_client.c	/^    copyinfo **filelist;$/;"	m	struct:__anon5	file:
+fill_connect_data	adb.c	/^static size_t fill_connect_data(char *buf, size_t bufsize)$/;"	f	file:
+find_devices	usb_windows.c	/^void find_devices() {$/;"	f
+find_emulator_transport_by_adb_port	transport_local.c	/^atransport* find_emulator_transport_by_adb_port(int adb_port)$/;"	f
+find_emulator_transport_by_adb_port_locked	transport_local.c	/^atransport* find_emulator_transport_by_adb_port_locked(int adb_port)$/;"	f
+find_local_socket	sockets.c	/^asocket *find_local_socket(unsigned id)$/;"	f
+find_mount	remount_service.c	/^static char *find_mount(const char *dir)$/;"	f	file:
+find_product_out_path	commandline.c	/^static const char *find_product_out_path(const char *hint)$/;"	f	file:
+find_sync_dirs	commandline.c	/^int find_sync_dirs(const char *srcarg,$/;"	f
+find_top	commandline.c	/^static char *find_top(char path_buf[PATH_MAX])$/;"	f	file:
+find_top_from	commandline.c	/^static char *find_top_from(const char *indir, char path_buf[PATH_MAX])$/;"	f	file:
+find_transport	transport.c	/^atransport *find_transport(const char *serial)$/;"	f
+find_usb_device	usb_linux.c	/^static void find_usb_device(const char *base,$/;"	f	file:
+first_handle_index	sysdeps_win32.c	/^    int             first_handle_index;$/;"	m	struct:WaitForAllParam	file:
+fix_endians	transport_local.c	/^static inline void fix_endians(apacket *p)$/;"	f	file:
+fix_endians	transport_local.c	40;"	d	file:
+fix_endians	transport_usb.c	/^static inline void fix_endians(apacket *p)$/;"	f	file:
+fix_endians	transport_usb.c	46;"	d	file:
+flag	file_sync_client.c	/^    int flag;$/;"	m	struct:copyinfo	file:
+fname	usb_linux.c	/^    char fname[64];$/;"	m	struct:usb_handle	file:
+force_eof	fdevent.h	/^    int force_eof;$/;"	m	struct:fdevent
+force_eof	sysdeps.h	/^    int force_eof;$/;"	m	struct:fdevent
+format_host_command	commandline.c	/^static void format_host_command(char* buffer, size_t  buflen, const char* command, transport_type ttype, const char* serial)$/;"	f	file:
+format_listener	adb.c	/^static int format_listener(alistener* l, char* buffer, size_t buffer_len) {$/;"	f	file:
+format_listeners	adb.c	/^static int format_listeners(char* buf, size_t buflen)$/;"	f	file:
+format_transport	transport.c	/^static size_t format_transport(atransport *t, char *buf, size_t bufsize,$/;"	f	file:
+framebuffer_service	framebuffer_service.c	/^void framebuffer_service(int fd, void *cookie)$/;"	f
+framework_fd	adb_auth_client.c	/^static int framework_fd = -1;$/;"	v	file:
+free_keys	adb_auth_client.c	/^static void free_keys(struct listnode *list)$/;"	f	file:
+free_listener	adb.c	/^static void  free_listener(alistener*  l)$/;"	f	file:
+fs_descs	usb_linux_client.c	/^    } __attribute__((packed)) fs_descs, hs_descs;$/;"	m	struct:__anon1	typeref:struct:__anon1::__anon2	file:
+func	adb.h	/^    void        (*func)(void*  opaque, atransport*  t);$/;"	m	struct:adisconnect
+func	fdevent.h	/^    fd_func func;$/;"	m	struct:fdevent
+func	services.c	/^    void (*func)(int fd, void *cookie);$/;"	m	struct:stinfo	file:
+func	sysdeps.h	/^    fd_func func;$/;"	m	struct:fdevent
+gListenAll	adb.c	/^int gListenAll = 0;$/;"	v
+gProductOutPath	commandline.c	/^static const char *gProductOutPath = NULL;$/;"	v	file:
+generate_key	adb_auth_host.c	/^static int generate_key(const char *file)$/;"	f	file:
+get_adb_usb_ini	usb_vendors.c	/^int get_adb_usb_ini(char* buff, size_t len)$/;"	f
+get_apacket	adb.c	/^apacket *get_apacket(void)$/;"	f
+get_available_local_transport_index	transport_local.c	/^int get_available_local_transport_index()$/;"	f
+get_available_local_transport_index_locked	transport_local.c	/^int get_available_local_transport_index_locked()$/;"	f
+get_basename	commandline.c	/^static const char* get_basename(const char* filename)$/;"	f	file:
+get_log_file_path	log_service.c	/^char * get_log_file_path(const char * log_name) {$/;"	f
+get_my_path	get_my_path_darwin.c	/^void get_my_path(char *s, size_t maxLen)$/;"	f
+get_my_path	get_my_path_freebsd.c	/^get_my_path(char *exe, size_t maxLen)$/;"	f
+get_my_path	get_my_path_linux.c	/^void get_my_path(char *exe, size_t maxLen)$/;"	f
+get_my_path	get_my_path_windows.c	/^void get_my_path(char *exe, size_t maxLen)$/;"	f
+get_user_info	adb_auth_host.c	/^static void get_user_info(char *buf, size_t len)$/;"	f	file:
+get_user_key	adb_auth_host.c	/^static int get_user_key(struct listnode *list)$/;"	f	file:
+get_user_keyfilepath	adb_auth_host.c	/^static int get_user_keyfilepath(char *filename, size_t len)$/;"	f	file:
+get_vendor_keys	adb_auth_host.c	/^static void get_vendor_keys(struct listnode *list)$/;"	f	file:
+green_length	framebuffer_service.c	/^    unsigned int green_length;$/;"	m	struct:fbinfo	file:
+green_offset	framebuffer_service.c	/^    unsigned int green_offset;$/;"	m	struct:fbinfo	file:
+h	sysdeps_win32.c	/^    HANDLE       h;$/;"	m	struct:EventHookRec_	file:
+handle	sysdeps_win32.c	/^        HANDLE      handle;$/;"	m	union:FHRec_::__anon16	file:
+handle_host_request	adb.c	/^int handle_host_request(char *service, transport_type ttype, char* serial, int reply_fd, asocket *s)$/;"	f
+handle_list	usb_libusb.c	/^static struct usb_handle handle_list = {$/;"	v	typeref:struct:usb_handle	file:
+handle_list	usb_linux.c	/^static usb_handle handle_list = {$/;"	v	file:
+handle_list	usb_windows.c	/^static usb_handle handle_list = {$/;"	v	file:
+handle_offline	adb.c	/^void handle_offline(atransport *t)$/;"	f
+handle_online	adb.c	/^void handle_online(atransport *t)$/;"	f
+handle_packet	adb.c	/^void handle_packet(apacket *p, atransport *t)$/;"	f
+handle_send_file	file_sync_service.c	/^static int handle_send_file(int s, char *path, mode_t mode, char *buffer)$/;"	f	file:
+handle_send_link	file_sync_service.c	/^static int handle_send_link(int s, char *path, char *buffer)$/;"	f	file:
+handles	sysdeps_win32.c	/^    HANDLE*         handles;$/;"	m	struct:WaitForAllParam	file:
+handles_count	sysdeps_win32.c	/^    int             handles_count;$/;"	m	struct:WaitForAllParam	file:
+header	usb_linux_client.c	/^    struct usb_functionfs_descs_head header;$/;"	m	struct:__anon1	typeref:struct:__anon1::usb_functionfs_descs_head	file:
+header	usb_linux_client.c	/^    struct usb_functionfs_strings_head header;$/;"	m	struct:__anon3	typeref:struct:__anon3::usb_functionfs_strings_head	file:
+height	framebuffer_service.c	/^    unsigned int height;$/;"	m	struct:fbinfo	file:
+help	commandline.c	/^void help()$/;"	f
+hooks	sysdeps_win32.c	/^    EventHook    hooks;$/;"	m	struct:EventLooperRec_	file:
+host_service_to_socket	services.c	/^asocket*  host_service_to_socket(const char*  name, const char *serial)$/;"	f
+host_to_le32	transport_usb.c	/^unsigned host_to_le32(unsigned n)$/;"	f
+hs_descs	usb_linux_client.c	/^    } __attribute__((packed)) fs_descs, hs_descs;$/;"	m	struct:__anon1	typeref:struct:__anon1::__anon2	file:
+htab	sysdeps_win32.c	/^    HANDLE       htab[ MAX_LOOPER_HANDLES ];$/;"	m	struct:EventLooperRec_	file:
+htab_count	sysdeps_win32.c	/^    int          htab_count;$/;"	m	struct:EventLooperRec_	file:
+htoll	file_sync_service.h	28;"	d
+htoll	file_sync_service.h	32;"	d
+id	adb.h	/^    unsigned id;$/;"	m	struct:asocket
+id	file_sync_client.c	/^    unsigned id;$/;"	m	struct:syncsendbuf	file:
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:__anon10::__anon11
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:__anon10::__anon12
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:__anon10::__anon13
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:__anon10::__anon14
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:__anon10::__anon15
+id	file_sync_service.h	/^    unsigned id;$/;"	m	union:__anon10
+in_buff	jdwp_service.c	/^    char          in_buff[4];  \/* input character to read PID *\/$/;"	m	struct:JdwpProcess	file:
+in_len	jdwp_service.c	/^    int           in_len;      \/* number from JDWP process    *\/$/;"	m	struct:JdwpProcess	file:
+init_functionfs	usb_linux_client.c	/^static void init_functionfs(struct usb_handle *h)$/;"	f	file:
+init_jdwp	jdwp_service.c	/^init_jdwp(void)$/;"	f
+init_socket_transport	transport_local.c	/^int init_socket_transport(atransport *t, int s, int adb_port, int local)$/;"	f
+init_transport_registration	transport.c	/^void init_transport_registration(void)$/;"	f
+init_usb_transport	transport_usb.c	/^void init_usb_transport(atransport *t, usb_handle *h, int state)$/;"	f
+initialized	usb_osx.c	/^static int initialized = 0;$/;"	v	file:
+input_thread	transport.c	/^static void *input_thread(void *_t)$/;"	f	file:
+insert_local_socket	sockets.c	/^insert_local_socket(asocket*  s, asocket*  list)$/;"	f	file:
+install_app	commandline.c	/^int install_app(transport_type transport, char* serial, int argc, char** argv)$/;"	f
+install_listener	adb.c	/^static install_status_t install_listener(const char *local_name,$/;"	f	file:
+install_local_socket	sockets.c	/^void install_local_socket(asocket *s)$/;"	f
+install_status_t	adb.c	/^} install_status_t;$/;"	t	typeref:enum:__anon7	file:
+interactive_shell	commandline.c	/^int interactive_shell(void)$/;"	f
+interface	usb_libusb.c	/^    int                   interface;$/;"	m	struct:usb_handle	file:
+interface	usb_osx.c	/^    IOUSBInterfaceInterface   **interface;$/;"	m	struct:usb_handle	file:
+interface_name	usb_windows.c	/^  char*         interface_name;$/;"	m	struct:usb_handle	file:
+intf	usb_linux_client.c	/^        struct usb_interface_descriptor intf;$/;"	m	struct:__anon1::__anon2	typeref:struct:__anon1::__anon2::usb_interface_descriptor	file:
+is_adb_interface	transport_usb.c	/^int is_adb_interface(int vid, int pid, int usb_class, int usb_subclass, int usb_protocol)$/;"	f
+jdwp_control_event	jdwp_service.c	/^jdwp_control_event( int  s, unsigned  events, void*  _control )$/;"	f	file:
+jdwp_control_init	jdwp_service.c	/^jdwp_control_init( JdwpControl*  control,$/;"	f	file:
+jdwp_process_alloc	jdwp_service.c	/^jdwp_process_alloc( int  socket )$/;"	f	file:
+jdwp_process_event	jdwp_service.c	/^jdwp_process_event( int  socket, unsigned  events, void*  _proc )$/;"	f	file:
+jdwp_process_free	jdwp_service.c	/^jdwp_process_free( JdwpProcess*  proc )$/;"	f	file:
+jdwp_process_list	jdwp_service.c	/^jdwp_process_list( char*  buffer, int  bufferlen )$/;"	f	file:
+jdwp_process_list_msg	jdwp_service.c	/^jdwp_process_list_msg( char*  buffer, int  bufferlen )$/;"	f	file:
+jdwp_process_list_updated	jdwp_service.c	/^jdwp_process_list_updated(void)$/;"	f	file:
+jdwp_socket_close	jdwp_service.c	/^jdwp_socket_close( asocket*  s )$/;"	f	file:
+jdwp_socket_enqueue	jdwp_service.c	/^jdwp_socket_enqueue( asocket*  s, apacket*  p )$/;"	f	file:
+jdwp_socket_ready	jdwp_service.c	/^jdwp_socket_ready( asocket*  s )$/;"	f	file:
+jdwp_tracker_close	jdwp_service.c	/^jdwp_tracker_close( asocket*  s )$/;"	f	file:
+jdwp_tracker_enqueue	jdwp_service.c	/^jdwp_tracker_enqueue( asocket*  s, apacket*  p )$/;"	f	file:
+jdwp_tracker_ready	jdwp_service.c	/^jdwp_tracker_ready( asocket*  s )$/;"	f	file:
+kTransportAny	adb.h	/^        kTransportAny,$/;"	e	enum:transport_type
+kTransportHost	adb.h	/^        kTransportHost,$/;"	e	enum:transport_type
+kTransportLocal	adb.h	/^        kTransportLocal,$/;"	e	enum:transport_type
+kTransportUsb	adb.h	/^        kTransportUsb,$/;"	e	enum:transport_type
+key	adb.h	/^    void *key;$/;"	m	struct:atransport
+key	adb_auth_client.c	/^    RSAPublicKey key;$/;"	m	struct:adb_public_key	file:
+key_list	adb_auth_host.c	/^static struct listnode key_list;$/;"	v	typeref:struct:listnode	file:
+key_paths	adb_auth_client.c	/^static char *key_paths[] = {$/;"	v	file:
+kick	adb.h	/^    void (*kick)(atransport *t);$/;"	m	struct:atransport
+kick	usb_linux_client.c	/^    void (*kick)(usb_handle *h);$/;"	m	struct:usb_handle	file:
+kick_disconnected	usb_libusb.c	/^kick_disconnected()$/;"	f
+kick_disconnected_devices	usb_linux.c	/^static void kick_disconnected_devices()$/;"	f	file:
+kick_transport	transport.c	/^kick_transport(atransport*  t)$/;"	f
+kicked	adb.h	/^    int          kicked;$/;"	m	struct:atransport
+known_device	usb_linux.c	/^static int known_device(const char *dev_name)$/;"	f	file:
+known_device	usb_windows.c	/^int known_device(const char* dev_name) {$/;"	f
+known_device_locked	usb_windows.c	/^int known_device_locked(const char* dev_name) {$/;"	f
+lang0	usb_linux_client.c	/^    } __attribute__((packed)) lang0;$/;"	m	struct:__anon3	typeref:struct:__anon3::__anon4	file:
+launch_server	adb.c	/^int launch_server(int server_port)$/;"	f
+len	adb.h	/^    unsigned len;$/;"	m	struct:apacket
+len	sockets.c	/^    const size_t len;$/;"	m	struct:prefix_struct	file:
+list_pending	fdevent.c	/^static fdevent list_pending = {$/;"	v	file:
+list_pending	sysdeps_win32.c	/^static fdevent list_pending = {$/;"	v	file:
+list_transports	transport.c	/^int list_transports(char *buf, size_t  bufsize, int long_listing)$/;"	f
+list_transports_msg	transport.c	/^static int list_transports_msg(char*  buffer, size_t  bufferlen)$/;"	f	file:
+listen_socket	jdwp_service.c	/^    int       listen_socket;$/;"	m	struct:__anon17	file:
+listener_disconnect	adb.c	/^static void listener_disconnect(void*  _l, atransport*  t)$/;"	f	file:
+listener_event_func	adb.c	/^static void listener_event_func(int _fd, unsigned ev, void *_l)$/;"	f	file:
+listener_fde	adb_auth_client.c	/^static fdevent listener_fde;$/;"	v	file:
+listener_list	adb.c	/^alistener listener_list = {$/;"	v
+load_file	sysdeps_win32.c	/^void *load_file(const char *fn, unsigned *_sz)$/;"	f
+load_keys	adb_auth_client.c	/^static void load_keys(struct listnode *list)$/;"	f	file:
+local_build_list	file_sync_client.c	/^static int local_build_list(copyinfo **filelist,$/;"	f	file:
+local_connect	transport_local.c	/^int local_connect(int port) {$/;"	f
+local_connect_arbitrary_ports	transport_local.c	/^int local_connect_arbitrary_ports(int console_port, int adb_port)$/;"	f
+local_init	transport_local.c	/^void local_init(int port)$/;"	f
+local_name	adb.h	/^    const char *local_name;$/;"	m	struct:alistener
+local_name_to_fd	adb.c	/^int local_name_to_fd(const char *name)$/;"	f
+local_socket_close	sockets.c	/^static void local_socket_close(asocket *s)$/;"	f	file:
+local_socket_close_locked	sockets.c	/^static void local_socket_close_locked(asocket *s)$/;"	f	file:
+local_socket_close_notify	sockets.c	/^static void local_socket_close_notify(asocket *s)$/;"	f	file:
+local_socket_closing_list	sockets.c	/^static asocket local_socket_closing_list = {$/;"	v	file:
+local_socket_destroy	sockets.c	/^static void local_socket_destroy(asocket  *s)$/;"	f	file:
+local_socket_enqueue	sockets.c	/^static int local_socket_enqueue(asocket *s, apacket *p)$/;"	f	file:
+local_socket_event_func	sockets.c	/^static void local_socket_event_func(int fd, unsigned ev, void *_s)$/;"	f	file:
+local_socket_list	sockets.c	/^static asocket local_socket_list = {$/;"	v	file:
+local_socket_next_id	sockets.c	/^static unsigned local_socket_next_id = 1;$/;"	v	file:
+local_socket_ready	sockets.c	/^static void local_socket_ready(asocket *s)$/;"	f	file:
+local_socket_ready_notify	sockets.c	/^static void local_socket_ready_notify(asocket *s)$/;"	f	file:
+local_transports	transport_local.c	/^static atransport*  local_transports[ ADB_LOCAL_TRANSPORT_MAX ];$/;"	v	file:
+local_transports_lock	transport_local.c	/^ADB_MUTEX_DEFINE( local_transports_lock );$/;"	v
+lock	sysdeps_win32.c	/^    CRITICAL_SECTION  lock;$/;"	m	struct:BipBufferRec_	file:
+lock	usb_libusb.c	/^    adb_mutex_t           lock;$/;"	m	struct:usb_handle	file:
+lock	usb_linux.c	/^    adb_mutex_t lock;$/;"	m	struct:usb_handle	file:
+lock	usb_linux_client.c	/^    adb_mutex_t lock;$/;"	m	struct:usb_handle	file:
+log_service	log_service.c	/^void log_service(int fd, void *cookie)$/;"	f
+logcat	commandline.c	/^static int logcat(transport_type transport, char* serial, int argc, char **argv)$/;"	f	file:
+lpath	file_sync_client.c	/^    const char *lpath;$/;"	m	struct:__anon5	file:
+lseek	sysdeps.h	393;"	d
+lseek	sysdeps.h	394;"	d
+lstat	sysdeps.h	86;"	d
+ltohl	file_sync_service.h	29;"	d
+ltohl	file_sync_service.h	33;"	d
+magic	adb.h	/^    unsigned magic;         \/* command ^ 0xffffffff             *\/$/;"	m	struct:amessage
+main	adb.c	/^int main(int argc, char **argv)$/;"	f
+main	test_track_devices.c	/^int  main( void )$/;"	f
+main	test_track_jdwp.c	/^int  main( void )$/;"	f
+main_event	sysdeps_win32.c	/^    HANDLE          main_event;$/;"	m	struct:WaitForAllParam	file:
+mark	usb_linux.c	/^    int mark;$/;"	m	struct:usb_handle	file:
+mask	sysdeps_win32.c	/^    int       mask;$/;"	m	struct:FHRec_	file:
+mkcopyinfo	file_sync_client.c	/^copyinfo *mkcopyinfo(const char *spath, const char *dpath,$/;"	f
+mkdir	sysdeps.h	110;"	d
+mkdir	sysdeps.h	111;"	d
+mkdir	sysdeps.h	491;"	d
+mkdir	sysdeps.h	492;"	d
+mkdirs	commandline.c	/^static int mkdirs(char *path)$/;"	f	file:
+mkdirs	file_sync_client.c	/^static int mkdirs(char *name)$/;"	f	file:
+mkdirs	file_sync_service.c	/^static int mkdirs(char *name)$/;"	f	file:
+mode	file_sync_client.c	/^    unsigned int mode;$/;"	m	struct:copyinfo	file:
+mode	file_sync_service.h	/^        unsigned mode;$/;"	m	struct:__anon10::__anon12
+mode	file_sync_service.h	/^        unsigned mode;$/;"	m	struct:__anon10::__anon13
+model	adb.h	/^    char *model;$/;"	m	struct:atransport
+msg	adb.h	/^    amessage msg;$/;"	m	struct:apacket
+msglen	file_sync_service.h	/^        unsigned msglen;$/;"	m	struct:__anon10::__anon15
+name	sysdeps_win32.c	/^    char  name[32];$/;"	m	struct:FHRec_	file:
+namelen	file_sync_service.h	/^        unsigned namelen;$/;"	m	struct:__anon10::__anon11
+namelen	file_sync_service.h	/^        unsigned namelen;$/;"	m	struct:__anon10::__anon13
+need_update	jdwp_service.c	/^    int           need_update;$/;"	m	struct:JdwpTracker	file:
+needs_retry	adb_auth_client.c	/^static bool needs_retry = false;$/;"	v	file:
+next	adb.h	/^    adisconnect*  next;$/;"	m	struct:adisconnect
+next	adb.h	/^    alistener *next;$/;"	m	struct:alistener
+next	adb.h	/^    apacket *next;$/;"	m	struct:apacket
+next	adb.h	/^    asocket *next;$/;"	m	struct:asocket
+next	adb.h	/^    atransport *next;$/;"	m	struct:atransport
+next	fdevent.h	/^    fdevent *next;$/;"	m	struct:fdevent
+next	file_sync_client.c	/^    copyinfo *next;$/;"	m	struct:copyinfo	file:
+next	jdwp_service.c	/^    JdwpProcess*  next;$/;"	m	struct:JdwpProcess	file:
+next	jdwp_service.c	/^    JdwpTracker*  next;$/;"	m	struct:JdwpTracker	file:
+next	sysdeps.h	/^    fdevent *next;$/;"	m	struct:fdevent
+next	sysdeps_win32.c	/^    EventHook    next;$/;"	m	struct:EventHookRec_	file:
+next	transport.c	/^    device_tracker*  next;$/;"	m	struct:device_tracker	file:
+next	usb_libusb.c	/^    usb_handle            *next;$/;"	m	struct:usb_handle	file:
+next	usb_linux.c	/^    usb_handle *next;$/;"	m	struct:usb_handle	file:
+next	usb_windows.c	/^  usb_handle *next;$/;"	m	struct:usb_handle	file:
+node	adb_auth_client.c	/^    struct listnode node;$/;"	m	struct:adb_public_key	typeref:struct:adb_public_key::listnode	file:
+node	adb_auth_host.c	/^    struct listnode node;$/;"	m	struct:adb_private_key	typeref:struct:adb_private_key::listnode	file:
+notificationIterators	usb_osx.c	/^static io_iterator_t*           notificationIterators;$/;"	v	file:
+notificationPort	usb_osx.c	/^static IONotificationPortRef    notificationPort = 0;$/;"	v	file:
+notify	usb_libusb.c	/^    adb_cond_t            notify;$/;"	m	struct:usb_handle	file:
+notify	usb_linux.c	/^    adb_cond_t notify;$/;"	m	struct:usb_handle	file:
+notify	usb_linux_client.c	/^    adb_cond_t notify;$/;"	m	struct:usb_handle	file:
+num_prefixes	sockets.c	/^static const int num_prefixes = (sizeof(prefixes) \/ sizeof(prefixes[0]));$/;"	v	file:
+online	adb.h	/^    int online;$/;"	m	struct:atransport
+opaque	adb.h	/^    void*         opaque;$/;"	m	struct:adisconnect
+open	adb.c	158;"	d	file:
+open	adb.c	160;"	d	file:
+open	adb.c	163;"	d	file:
+open	adb.c	165;"	d	file:
+open	sysdeps.h	163;"	d
+open	sysdeps.h	356;"	d
+open	sysdeps.h	357;"	d
+open	transport_local.c	194;"	d	file:
+open	transport_local.c	196;"	d	file:
+open	transport_local.c	199;"	d	file:
+open	transport_local.c	201;"	d	file:
+out_count	jdwp_service.c	/^    int           out_count;            \/* to send to the JDWP process      *\/$/;"	m	struct:JdwpProcess	file:
+out_fds	jdwp_service.c	/^    int           out_fds[MAX_OUT_FDS]; \/* output array of file descriptors *\/$/;"	m	struct:JdwpProcess	file:
+output_thread	transport.c	/^static void *output_thread(void *_t)$/;"	f	file:
+pair	sysdeps_win32.c	/^        SocketPair  pair;$/;"	m	union:FHRec_::__anon16	file:
+panic	test_track_devices.c	/^panic( const char*  msg )$/;"	f	file:
+panic	test_track_jdwp.c	/^panic( const char*  msg )$/;"	f	file:
+parse_banner	adb.c	/^void parse_banner(char *banner, atransport *t)$/;"	f
+pass	jdwp_service.c	/^    int      pass;$/;"	m	struct:__anon18	file:
+peek	sysdeps_win32.c	/^    int         (*peek)   ( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+peer	adb.h	/^    asocket *peer;$/;"	m	struct:asocket
+pid	backup_service.c	/^    pid_t pid;$/;"	m	struct:__anon6	file:
+pid	jdwp_service.c	/^    int           pid;$/;"	m	struct:JdwpProcess	file:
+pkt_first	adb.h	/^    apacket *pkt_first;$/;"	m	struct:asocket
+pkt_last	adb.h	/^    apacket *pkt_last;$/;"	m	struct:asocket
+pm_command	commandline.c	/^static int pm_command(transport_type transport, char* serial,$/;"	f	file:
+ppp	commandline.c	/^int ppp(int argc, char **argv)$/;"	f
+prefix_struct	sockets.c	/^static const struct prefix_struct {$/;"	s	file:
+prefixes	sockets.c	/^} prefixes[] = {$/;"	v	typeref:struct:prefix_struct	file:
+prepare	sysdeps_win32.c	/^    void        (*prepare)( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+prev	adb.h	/^    adisconnect*  prev;$/;"	m	struct:adisconnect
+prev	adb.h	/^    alistener *prev;$/;"	m	struct:alistener
+prev	adb.h	/^    asocket *prev;$/;"	m	struct:asocket
+prev	adb.h	/^    atransport *prev;$/;"	m	struct:atransport
+prev	fdevent.h	/^    fdevent *prev;$/;"	m	struct:fdevent
+prev	jdwp_service.c	/^    JdwpProcess*  prev;$/;"	m	struct:JdwpProcess	file:
+prev	jdwp_service.c	/^    JdwpTracker*  prev;$/;"	m	struct:JdwpTracker	file:
+prev	sysdeps.h	/^    fdevent *prev;$/;"	m	struct:fdevent
+prev	usb_libusb.c	/^    usb_handle            *prev;$/;"	m	struct:usb_handle	file:
+prev	usb_linux.c	/^    usb_handle *prev;$/;"	m	struct:usb_handle	file:
+prev	usb_windows.c	/^  usb_handle *prev;$/;"	m	struct:usb_handle	file:
+print_packet	adb.c	/^void print_packet(const char *label, apacket *p)$/;"	f
+print_packet	adb.h	422;"	d
+product	adb.h	/^    char *product;$/;"	m	struct:atransport
+product_file	commandline.c	/^static char *product_file(const char *extra)$/;"	f	file:
+ptr	adb.h	/^    unsigned char *ptr;$/;"	m	struct:apacket
+put_apacket	adb.c	/^void put_apacket(apacket *p)$/;"	f
+qemu_socket_thread	transport_local.c	/^static void *qemu_socket_thread(void * arg)$/;"	f	file:
+qual_char_is_invalid	transport.c	/^static int qual_char_is_invalid(char ch)$/;"	f	file:
+qual_match	transport.c	/^static int qual_match(const char *to_test,$/;"	f	file:
+qual_overwrite	adb.c	/^static void qual_overwrite(char **dst, const char *src)$/;"	f	file:
+read	sysdeps.h	132;"	d
+read	sysdeps.h	133;"	d
+read	sysdeps.h	379;"	d
+read	sysdeps.h	380;"	d
+read	usb_linux_client.c	/^    int (*read)(usb_handle *h, void *data, int len);$/;"	m	struct:usb_handle	file:
+read_and_dump	commandline.c	/^static void read_and_dump(int fd)$/;"	f	file:
+read_fds	fdevent.c	/^static fd_set read_fds;$/;"	v	file:
+read_from_remote	adb.h	/^    int (*read_from_remote)(apacket *p, atransport *t);$/;"	m	struct:atransport
+read_key	adb_auth_host.c	/^static int read_key(const char *file, struct listnode *list)$/;"	f	file:
+read_keys	adb_auth_client.c	/^static void read_keys(const char *file, struct listnode *list)$/;"	f	file:
+read_packet	transport.c	/^read_packet(int  fd, const char* name, apacket** ppacket)$/;"	f	file:
+readx	transport.c	/^int readx(int fd, void *ptr, size_t len)$/;"	f
+ready	adb.h	/^    void (*ready)(asocket *s);$/;"	m	struct:asocket
+ready	sysdeps_win32.c	/^    int          ready;    \/* ready event flags  *\/$/;"	m	struct:EventHookRec_	file:
+reaper_thread	usb_linux.c	/^    pthread_t reaper_thread;$/;"	m	struct:usb_handle	file:
+reboot_service	services.c	/^void reboot_service(int fd, void *arg)$/;"	f
+recognized_device	usb_windows.c	/^int recognized_device(usb_handle* handle) {$/;"	f
+recover_service	services.c	/^static void recover_service(int s, void *cookie)$/;"	f	file:
+recovery_mode	adb.c	/^int recovery_mode = 0;$/;"	v
+red_length	framebuffer_service.c	/^    unsigned int red_length;$/;"	m	struct:fbinfo	file:
+red_offset	framebuffer_service.c	/^    unsigned int red_offset;$/;"	m	struct:fbinfo	file:
+ref_count	adb.h	/^    int ref_count;$/;"	m	struct:atransport
+register_device	usb_libusb.c	/^register_device(struct usb_handle *uh, const char *serial)$/;"	f
+register_device	usb_linux.c	/^static void register_device(const char *dev_name, const char *devpath,$/;"	f	file:
+register_new_device	usb_windows.c	/^int register_new_device(usb_handle* handle) {$/;"	f
+register_socket_transport	transport.c	/^void register_socket_transport(int s, const char *serial, int port, int local)$/;"	f
+register_transport	transport.c	/^static void register_transport(atransport *transport)$/;"	f	file:
+register_usb_transport	transport.c	/^void register_usb_transport(usb_handle *usb, const char *serial, const char *devpath, unsigned writeable)$/;"	f
+remote_build_list	file_sync_client.c	/^static int remote_build_list(int syncfd, copyinfo **filelist,$/;"	f	file:
+remote_close	transport_local.c	/^static void remote_close(atransport *t)$/;"	f	file:
+remote_close	transport_usb.c	/^static void remote_close(atransport *t)$/;"	f	file:
+remote_kick	transport_local.c	/^static void remote_kick(atransport *t)$/;"	f	file:
+remote_kick	transport_usb.c	/^static void remote_kick(atransport *t)$/;"	f	file:
+remote_read	transport_local.c	/^static int remote_read(apacket *p, atransport *t)$/;"	f	file:
+remote_read	transport_usb.c	/^static int remote_read(apacket *p, atransport *t)$/;"	f	file:
+remote_socket_close	sockets.c	/^static void remote_socket_close(asocket *s)$/;"	f	file:
+remote_socket_disconnect	sockets.c	/^static void remote_socket_disconnect(void*  _s, atransport*  t)$/;"	f	file:
+remote_socket_enqueue	sockets.c	/^static int remote_socket_enqueue(asocket *s, apacket *p)$/;"	f	file:
+remote_socket_ready	sockets.c	/^static void remote_socket_ready(asocket *s)$/;"	f	file:
+remote_write	transport_local.c	/^static int remote_write(apacket *p, atransport *t)$/;"	f	file:
+remote_write	transport_usb.c	/^static int remote_write(apacket *p, atransport *t)$/;"	f	file:
+remount_service	remount_service.c	/^void remount_service(int fd, void *cookie)$/;"	f
+remount_system	remount_service.c	/^static int remount_system()$/;"	f	file:
+remove_all_listeners	adb.c	/^static void remove_all_listeners(void)$/;"	f	file:
+remove_listener	adb.c	/^static int remove_listener(const char *local_name, atransport* transport)$/;"	f	file:
+remove_socket	sockets.c	/^void remove_socket(asocket *s)$/;"	f
+remove_transport	transport.c	/^static void remove_transport(atransport *transport)$/;"	f	file:
+remove_transport_disconnect	transport.c	/^void remove_transport_disconnect(atransport*  t, adisconnect*  dis)$/;"	f
+report_bulk_libusb_error	usb_libusb.c	/^report_bulk_libusb_error(int r)$/;"	f
+req	file_sync_service.h	/^    } req;$/;"	m	union:__anon10	typeref:struct:__anon10::__anon11
+restart_root_service	services.c	/^void restart_root_service(int fd, void *cookie)$/;"	f
+restart_tcp_service	services.c	/^void restart_tcp_service(int fd, void *cookie)$/;"	f
+restart_usb_service	services.c	/^void restart_usb_service(int fd, void *cookie)$/;"	f
+restore	commandline.c	/^static int restore(int argc, char** argv) {$/;"	f	file:
+rpath	file_sync_client.c	/^    const char *rpath;$/;"	m	struct:__anon5	file:
+rsa	adb_auth_host.c	/^    RSA *rsa;$/;"	m	struct:adb_private_key	file:
+run_transport_disconnects	transport.c	/^run_transport_disconnects(atransport*  t)$/;"	f
+scan_usb_devices	usb_libusb.c	/^scan_usb_devices()$/;"	f
+select_n	fdevent.c	/^static int select_n = 0;$/;"	v	file:
+send_auth_publickey	adb.c	/^static void send_auth_publickey(atransport *t)$/;"	f	file:
+send_auth_request	adb.c	/^void send_auth_request(atransport *t)$/;"	f
+send_auth_response	adb.c	/^static void send_auth_response(uint8_t *token, size_t token_size, atransport *t)$/;"	f	file:
+send_buffer	file_sync_client.c	/^static syncsendbuf send_buffer;$/;"	v	file:
+send_close	adb.c	/^static void send_close(unsigned local, unsigned remote, atransport *t)$/;"	f	file:
+send_connect	adb.c	/^static void send_connect(atransport *t)$/;"	f	file:
+send_packet	transport.c	/^void send_packet(apacket *p, atransport *t)$/;"	f
+send_ready	adb.c	/^static void send_ready(unsigned local, unsigned remote, atransport *t)$/;"	f	file:
+send_shellcommand	commandline.c	/^static int send_shellcommand(transport_type transport, char* serial, char* buf)$/;"	f	file:
+sendfailmsg	sockets.c	/^int sendfailmsg(int fd, const char *reason)$/;"	f
+serial	adb.h	/^    char *serial;$/;"	m	struct:atransport
+serial	services.c	/^    char* serial;$/;"	m	struct:state_info	file:
+serial	usb_libusb.c	/^    char                  serial[128];$/;"	m	struct:usb_handle	file:
+server_socket_thread	transport_local.c	/^static void *server_socket_thread(void * arg)$/;"	f	file:
+service_bootstrap_func	services.c	/^void *service_bootstrap_func(void *x)$/;"	f
+service_to_fd	services.c	/^int service_to_fd(const char *name)$/;"	f
+sfd	adb.h	/^    int sfd;$/;"	m	struct:atransport
+should_drop_privileges	adb.c	/^static int should_drop_privileges() {$/;"	f	file:
+shutdown	sysdeps.h	363;"	d
+shutdown	sysdeps.h	364;"	d
+sigalrm_handler	usb_libusb.c	/^sigalrm_handler(int signo)$/;"	f	file:
+sigalrm_handler	usb_linux.c	/^static void sigalrm_handler(int signo)$/;"	f	file:
+signaled_index	sysdeps_win32.c	/^    LONG volatile   *signaled_index;$/;"	m	struct:WaitForAllParam	file:
+sink	usb_linux_client.c	/^        struct usb_endpoint_descriptor_no_audio sink;$/;"	m	struct:__anon1::__anon2	typeref:struct:__anon1::__anon2::usb_endpoint_descriptor_no_audio	file:
+size	file_sync_client.c	/^    unsigned int size;$/;"	m	struct:copyinfo	file:
+size	file_sync_client.c	/^    unsigned size;$/;"	m	struct:syncsendbuf	file:
+size	file_sync_service.h	/^        unsigned size;$/;"	m	struct:__anon10::__anon12
+size	file_sync_service.h	/^        unsigned size;$/;"	m	struct:__anon10::__anon13
+size	file_sync_service.h	/^        unsigned size;$/;"	m	struct:__anon10::__anon14
+size	framebuffer_service.c	/^    unsigned int size;$/;"	m	struct:fbinfo	file:
+skip_host_serial	sockets.c	/^char *skip_host_serial(char *service) {$/;"	f
+smart_socket_action	sockets.c	/^void smart_socket_action(asocket *s, const char *act)$/;"	f
+smart_socket_close	sockets.c	/^static void smart_socket_close(asocket *s)$/;"	f	file:
+smart_socket_enqueue	sockets.c	/^static int smart_socket_enqueue(asocket *s, apacket *p)$/;"	f	file:
+smart_socket_ready	sockets.c	/^static void smart_socket_ready(asocket *s)$/;"	f	file:
+socket	jdwp_service.c	/^    asocket       socket;$/;"	m	struct:JdwpTracker	file:
+socket	jdwp_service.c	/^    asocket  socket;$/;"	m	struct:__anon18	file:
+socket	jdwp_service.c	/^    int           socket;$/;"	m	struct:JdwpProcess	file:
+socket	sockets.c	/^    asocket      socket;$/;"	m	struct:aremotesocket	file:
+socket	sysdeps_win32.c	/^        SOCKET      socket;$/;"	m	union:FHRec_::__anon16	file:
+socket	transport.c	/^    asocket          socket;$/;"	m	struct:device_tracker	file:
+socket_inaddr_any_server	sysdeps_win32.c	/^int socket_inaddr_any_server(int port, int type)$/;"	f
+socket_list_lock	sockets.c	/^ADB_MUTEX_DEFINE( socket_list_lock );$/;"	v
+socket_loopback_client	sysdeps_win32.c	/^int socket_loopback_client(int port, int type)$/;"	f
+socket_loopback_server	sysdeps_win32.c	/^int socket_loopback_server(int port, int type)$/;"	f
+socket_network_client	sysdeps_win32.c	/^int socket_network_client(const char *host, int port, int type)$/;"	f
+socketpair	sysdeps.h	479;"	d
+socketpair	sysdeps.h	480;"	d
+source	usb_linux_client.c	/^        struct usb_endpoint_descriptor_no_audio source;$/;"	m	struct:__anon1::__anon2	typeref:struct:__anon1::__anon2::usb_endpoint_descriptor_no_audio	file:
+src	file_sync_client.c	/^    const char *src;$/;"	m	struct:copyinfo	file:
+ss_listener_event_func	adb.c	/^static void ss_listener_event_func(int _fd, unsigned ev, void *_l)$/;"	f	file:
+start	sysdeps_win32.c	/^    int         (*start)  ( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+start_cond	usb_osx.c	/^static pthread_cond_t start_cond;$/;"	v	file:
+start_device_log	adb.c	/^void start_device_log(void)$/;"	f
+start_lock	usb_osx.c	/^static pthread_mutex_t start_lock;$/;"	v	file:
+start_logging	adb.c	/^void start_logging(void)$/;"	f
+start_time	file_sync_client.c	/^static long long start_time;$/;"	v	file:
+stat	file_sync_service.h	/^    } stat;$/;"	m	union:__anon10	typeref:struct:__anon10::__anon12
+state	fdevent.h	/^    unsigned short state;$/;"	m	struct:fdevent
+state	services.c	/^    int state;$/;"	m	struct:state_info	file:
+state	sysdeps.h	/^    unsigned short state;$/;"	m	struct:fdevent
+state_info	services.c	/^struct state_info {$/;"	s	file:
+statename	transport.c	/^static const char *statename(atransport *t)$/;"	f	file:
+status	file_sync_service.h	/^    } status;    $/;"	m	union:__anon10	typeref:struct:__anon10::__anon15
+status_window	commandline.c	/^static void status_window(transport_type ttype, const char* serial)$/;"	f	file:
+stdin_raw_init	commandline.c	/^static void stdin_raw_init(int fd)$/;"	f	file:
+stdin_raw_restore	commandline.c	/^static void stdin_raw_restore(int fd)$/;"	f	file:
+stdin_read_thread	commandline.c	/^static void *stdin_read_thread(void *x)$/;"	f	file:
+stinfo	services.c	/^struct stinfo {$/;"	s	file:
+stinfo	services.c	/^typedef struct stinfo stinfo;$/;"	t	typeref:struct:stinfo	file:
+stop	sysdeps_win32.c	/^    void        (*stop)   ( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+str	sockets.c	/^    const char *str;$/;"	m	struct:prefix_struct	file:
+str1	usb_linux_client.c	/^        const char str1[sizeof(STR_INTERFACE_)];$/;"	m	struct:__anon3::__anon4	file:
+strings	usb_linux_client.c	/^} __attribute__((packed)) strings = {$/;"	v	typeref:struct:__anon3	file:
+strtok_r	sysdeps.h	517;"	d
+strtok_r	sysdeps.h	518;"	d
+subproc_waiter_service	services.c	/^static void subproc_waiter_service(int fd, void *cookie)$/;"	f	file:
+switch_socket_transport	adb_client.c	/^static int switch_socket_transport(int fd)$/;"	f	file:
+sync_finish_readtime	file_sync_client.c	/^static int sync_finish_readtime(int fd, unsigned int *timestamp,$/;"	f	file:
+sync_ls	file_sync_client.c	/^int sync_ls(int fd, const char *path, sync_ls_cb func, void *cookie)$/;"	f
+sync_ls_build_list_cb	file_sync_client.c	/^sync_ls_build_list_cb(unsigned mode, unsigned size, unsigned time,$/;"	f
+sync_ls_build_list_cb_args	file_sync_client.c	/^} sync_ls_build_list_cb_args;$/;"	t	typeref:struct:__anon5	file:
+sync_ls_cb	file_sync_client.c	/^typedef void (*sync_ls_cb)(unsigned mode, unsigned size, unsigned time, const char *name, void *cookie);$/;"	t	file:
+sync_quit	file_sync_client.c	/^void sync_quit(int fd)$/;"	f
+sync_readmode	file_sync_client.c	/^int sync_readmode(int fd, const char *path, unsigned *mode)$/;"	f
+sync_readtime	file_sync_client.c	/^int sync_readtime(int fd, const char *path, unsigned *timestamp)$/;"	f
+sync_recv	file_sync_client.c	/^int sync_recv(int fd, const char *rpath, const char *lpath)$/;"	f
+sync_send	file_sync_client.c	/^static int sync_send(int fd, const char *lpath, const char *rpath,$/;"	f	file:
+sync_start_readtime	file_sync_client.c	/^static int sync_start_readtime(int fd, const char *path)$/;"	f	file:
+sync_token	adb.h	/^    unsigned sync_token;$/;"	m	struct:atransport
+syncmsg	file_sync_service.h	/^} syncmsg;$/;"	t	typeref:union:__anon10
+syncsendbuf	file_sync_client.c	/^struct syncsendbuf {$/;"	s	file:
+syncsendbuf	file_sync_client.c	/^typedef struct syncsendbuf syncsendbuf;$/;"	t	typeref:struct:syncsendbuf	file:
+system_ro	remount_service.c	/^static int system_ro = 1;$/;"	v	file:
+thread	sysdeps_win32.c	/^    HANDLE          thread;$/;"	m	struct:WaitForAllParam	file:
+tid	sysdeps.h	/^typedef struct { unsigned  tid; }  adb_thread_t;$/;"	m	struct:__anon19
+time	file_sync_client.c	/^    unsigned int time;$/;"	m	struct:copyinfo	file:
+time	file_sync_service.h	/^        unsigned time;$/;"	m	struct:__anon10::__anon12
+time	file_sync_service.h	/^        unsigned time;$/;"	m	struct:__anon10::__anon13
+tio_save	commandline.c	/^static struct termios tio_save;$/;"	v	typeref:struct:termios	file:
+tmsg	transport.c	/^struct tmsg$/;"	s	file:
+tmsg	transport.c	/^typedef struct tmsg tmsg;$/;"	t	typeref:struct:tmsg	file:
+token	adb.h	/^    unsigned char token[TOKEN_SIZE];$/;"	m	struct:atransport
+top_works	commandline.c	/^static int top_works(const char *top)$/;"	f	file:
+total_bytes	file_sync_client.c	/^static unsigned long long total_bytes;$/;"	v	file:
+transport	adb.h	/^    atransport *transport;$/;"	m	struct:alistener
+transport	adb.h	/^    atransport *transport;$/;"	m	struct:asocket
+transport	services.c	/^    transport_type transport;$/;"	m	struct:state_info	file:
+transport	transport.c	/^    atransport *transport;$/;"	m	struct:tmsg	file:
+transport_fde	adb.h	/^    fdevent transport_fde;$/;"	m	struct:atransport
+transport_list	transport.c	/^static atransport transport_list = {$/;"	v	file:
+transport_lock	transport.c	/^ADB_MUTEX_DEFINE( transport_lock );$/;"	v
+transport_read_action	transport.c	/^transport_read_action(int  fd, struct tmsg*  m)$/;"	f	file:
+transport_registration_fde	transport.c	/^static fdevent transport_registration_fde;$/;"	v	file:
+transport_registration_func	transport.c	/^static void transport_registration_func(int _fd, unsigned ev, void *data)$/;"	f	file:
+transport_registration_recv	transport.c	/^static int transport_registration_recv = -1;$/;"	v	file:
+transport_registration_send	transport.c	/^static int transport_registration_send = -1;$/;"	v	file:
+transport_socket	adb.h	/^    int transport_socket;$/;"	m	struct:atransport
+transport_socket_events	transport.c	/^static void transport_socket_events(int fd, unsigned events, void *_t)$/;"	f	file:
+transport_type	adb.h	/^typedef enum transport_type {$/;"	g
+transport_type	adb.h	/^} transport_type;$/;"	t	typeref:enum:transport_type
+transport_unref	transport.c	/^static void transport_unref(atransport *t)$/;"	f	file:
+transport_unref_locked	transport.c	/^static void transport_unref_locked(atransport *t)$/;"	f	file:
+transport_write_action	transport.c	/^transport_write_action(int  fd, struct tmsg*  m)$/;"	f	file:
+type	adb.h	/^    transport_type type;$/;"	m	struct:atransport
+u	sysdeps_win32.c	/^    } u;$/;"	m	struct:FHRec_	typeref:union:FHRec_::__anon16	file:
+unhex	sockets.c	/^unsigned unhex(unsigned char *s, int len)$/;"	f
+uninstall_app	commandline.c	/^int uninstall_app(transport_type transport, char* serial, int argc, char** argv)$/;"	f
+unix_close	sysdeps.h	/^static __inline__ int  unix_close(int fd)$/;"	f
+unix_close	sysdeps.h	432;"	d
+unix_open	sysdeps.h	/^static __inline__ int  unix_open(const char*  path, int options,...)$/;"	f
+unix_read	sysdeps.h	/^static __inline__  int  unix_read(int  fd, void*  buf, size_t  len)$/;"	f
+unix_read	sysdeps.h	430;"	d
+unix_read	test_track_devices.c	/^unix_read( int  fd, char*  buf, int  len )$/;"	f	file:
+unix_read	test_track_jdwp.c	/^unix_read( int  fd, char*  buf, int  len )$/;"	f	file:
+unix_socketpair	sysdeps.h	/^static __inline__ int  unix_socketpair( int  d, int  type, int  protocol, int sv[2] )$/;"	f
+unix_write	sysdeps.h	/^static __inline__  int  unix_write(int  fd, const void*  buf, size_t  len)$/;"	f
+unix_write	sysdeps.h	431;"	d
+unix_write	test_track_devices.c	/^unix_write( int  fd, const char*  buf, int  len )$/;"	f	file:
+unix_write	test_track_jdwp.c	/^unix_write( int  fd, const char*  buf, int  len )$/;"	f	file:
+unlink	sysdeps.h	103;"	d
+unlink	sysdeps.h	104;"	d
+unlink	sysdeps.h	400;"	d
+unlink	sysdeps.h	401;"	d
+unregister_all_tcp_transports	transport.c	/^void unregister_all_tcp_transports()$/;"	f
+unregister_transport	transport.c	/^void unregister_transport(atransport *t)$/;"	f
+unregister_usb_transport	transport.c	/^void unregister_usb_transport(usb_handle *usb)$/;"	f
+update_needed	transport.c	/^    int              update_needed;$/;"	m	struct:device_tracker	file:
+update_transports	transport.c	/^void  update_transports(void)$/;"	f
+urb_in	usb_linux.c	/^    struct usbdevfs_urb urb_in;$/;"	m	struct:usb_handle	typeref:struct:usb_handle::usbdevfs_urb	file:
+urb_in_busy	usb_linux.c	/^    int urb_in_busy;$/;"	m	struct:usb_handle	file:
+urb_out	usb_linux.c	/^    struct usbdevfs_urb urb_out;$/;"	m	struct:usb_handle	typeref:struct:usb_handle::usbdevfs_urb	file:
+urb_out_busy	usb_linux.c	/^    int urb_out_busy;$/;"	m	struct:usb_handle	file:
+usage	commandline.c	/^int usage()$/;"	f
+usb	adb.h	/^    usb_handle *usb;$/;"	m	struct:atransport
+usbNotification	usb_osx.c	/^    io_object_t               usbNotification;$/;"	m	struct:usb_handle	file:
+usb_adb_init	usb_linux_client.c	/^static void usb_adb_init()$/;"	f	file:
+usb_adb_kick	usb_linux_client.c	/^static void usb_adb_kick(usb_handle *h)$/;"	f	file:
+usb_adb_open_thread	usb_linux_client.c	/^static void *usb_adb_open_thread(void *x)$/;"	f	file:
+usb_adb_read	usb_linux_client.c	/^static int usb_adb_read(usb_handle *h, void *data, int len)$/;"	f	file:
+usb_adb_write	usb_linux_client.c	/^static int usb_adb_write(usb_handle *h, const void *data, int len)$/;"	f	file:
+usb_bulk_read	usb_libusb.c	/^usb_bulk_read(usb_handle *uh, void *data, int len)$/;"	f	file:
+usb_bulk_read	usb_linux.c	/^static int usb_bulk_read(usb_handle *h, void *data, int len)$/;"	f	file:
+usb_bulk_write	usb_libusb.c	/^usb_bulk_write(usb_handle *uh, const void *data, int len)$/;"	f	file:
+usb_bulk_write	usb_linux.c	/^static int usb_bulk_write(usb_handle *h, const void *data, int len)$/;"	f	file:
+usb_class_id	usb_windows.c	/^static const GUID usb_class_id = ANDROID_USB_CLASS_ID;$/;"	v	file:
+usb_cleanup	usb_libusb.c	/^usb_cleanup()$/;"	f
+usb_cleanup	usb_linux.c	/^void usb_cleanup()$/;"	f
+usb_cleanup	usb_linux_client.c	/^void usb_cleanup()$/;"	f
+usb_cleanup	usb_osx.c	/^void usb_cleanup()$/;"	f
+usb_cleanup	usb_windows.c	/^void usb_cleanup() {$/;"	f
+usb_cleanup_handle	usb_windows.c	/^void usb_cleanup_handle(usb_handle* handle) {$/;"	f
+usb_close	usb_libusb.c	/^usb_close(struct usb_handle *h)$/;"	f
+usb_close	usb_linux.c	/^int usb_close(usb_handle *h)$/;"	f
+usb_close	usb_linux_client.c	/^int usb_close(usb_handle *h)$/;"	f
+usb_close	usb_osx.c	/^int usb_close(usb_handle *handle)$/;"	f
+usb_close	usb_windows.c	/^int usb_close(usb_handle* handle) {$/;"	f
+usb_disconnect	adb_auth_client.c	/^static struct adisconnect usb_disconnect = { usb_disconnected, 0, 0, 0 };$/;"	v	typeref:struct:adisconnect	file:
+usb_disconnected	adb_auth_client.c	/^static void usb_disconnected(void* unused, atransport* t)$/;"	f	file:
+usb_ffs_init	usb_linux_client.c	/^static void usb_ffs_init()$/;"	f	file:
+usb_ffs_kick	usb_linux_client.c	/^static void usb_ffs_kick(usb_handle *h)$/;"	f	file:
+usb_ffs_open_thread	usb_linux_client.c	/^static void *usb_ffs_open_thread(void *x)$/;"	f	file:
+usb_ffs_read	usb_linux_client.c	/^static int usb_ffs_read(usb_handle *h, void *data, int len)$/;"	f	file:
+usb_ffs_write	usb_linux_client.c	/^static int usb_ffs_write(usb_handle *h, const void *data, int len)$/;"	f	file:
+usb_handle	adb.h	/^typedef struct usb_handle usb_handle;$/;"	t	typeref:struct:usb_handle
+usb_handle	usb_libusb.c	/^struct usb_handle$/;"	s	file:
+usb_handle	usb_linux.c	/^struct usb_handle$/;"	s	file:
+usb_handle	usb_linux_client.c	/^struct usb_handle$/;"	s	file:
+usb_handle	usb_osx.c	/^struct usb_handle$/;"	s	file:
+usb_handle	usb_windows.c	/^struct usb_handle {$/;"	s	file:
+usb_init	usb_libusb.c	/^usb_init()$/;"	f
+usb_init	usb_linux.c	/^void usb_init()$/;"	f
+usb_init	usb_linux_client.c	/^void usb_init()$/;"	f
+usb_init	usb_osx.c	/^void usb_init()$/;"	f
+usb_init	usb_windows.c	/^void usb_init() {$/;"	f
+usb_kick	usb_libusb.c	/^void usb_kick(struct usb_handle *h)$/;"	f
+usb_kick	usb_linux.c	/^void usb_kick(usb_handle *h)$/;"	f
+usb_kick	usb_linux_client.c	/^void usb_kick(usb_handle *h)$/;"	f
+usb_kick	usb_osx.c	/^void usb_kick(usb_handle *handle)$/;"	f
+usb_kick	usb_windows.c	/^void usb_kick(usb_handle* handle) {$/;"	f
+usb_lock	usb_libusb.c	/^static adb_mutex_t usb_lock = ADB_MUTEX_INITIALIZER;$/;"	v	file:
+usb_lock	usb_linux.c	/^ADB_MUTEX_DEFINE( usb_lock );$/;"	v
+usb_lock	usb_windows.c	/^ADB_MUTEX_DEFINE( usb_lock );$/;"	v
+usb_name	usb_windows.c	/^const char *usb_name(usb_handle* handle) {$/;"	f
+usb_read	usb_libusb.c	/^usb_read(struct usb_handle *uh, void *_data, int len)$/;"	f
+usb_read	usb_linux.c	/^int usb_read(usb_handle *h, void *_data, int len)$/;"	f
+usb_read	usb_linux_client.c	/^int usb_read(usb_handle *h, void *data, int len)$/;"	f
+usb_read	usb_osx.c	/^int usb_read(usb_handle *handle, void *buf, int len)$/;"	f
+usb_read	usb_windows.c	/^int usb_read(usb_handle *handle, void* data, int len) {$/;"	f
+usb_transport	adb_auth_client.c	/^static atransport* usb_transport;$/;"	v	file:
+usb_vendors_init	usb_vendors.c	/^void usb_vendors_init(void)$/;"	f
+usb_write	usb_libusb.c	/^usb_write(struct usb_handle *uh, const void *_data, int len)$/;"	f
+usb_write	usb_linux.c	/^int usb_write(usb_handle *h, const void *_data, int len)$/;"	f
+usb_write	usb_linux_client.c	/^int usb_write(usb_handle *h, const void *data, int len)$/;"	f
+usb_write	usb_osx.c	/^int usb_write(usb_handle *handle, const void *buf, int len)$/;"	f
+usb_write	usb_windows.c	/^int usb_write(usb_handle* handle, const void* data, int len) {$/;"	f
+used	sysdeps_win32.c	/^    int           used;$/;"	m	struct:SocketPairRec_	file:
+used	sysdeps_win32.c	/^    int        used;$/;"	m	struct:FHRec_	file:
+vendorIdCount	usb_vendors.c	/^unsigned vendorIdCount = 0;$/;"	v
+vendorIds	usb_vendors.c	/^int vendorIds[VENDOR_COUNT_MAX];$/;"	v
+version	commandline.c	/^void version(FILE * out) {$/;"	f
+version	framebuffer_service.c	/^    unsigned int version;$/;"	m	struct:fbinfo	file:
+wait_for_state	services.c	/^static void wait_for_state(int fd, void* cookie)$/;"	f	file:
+wanted	sysdeps_win32.c	/^    int          wanted;   \/* wanted event flags *\/$/;"	m	struct:EventHookRec_	file:
+width	framebuffer_service.c	/^    unsigned int width;$/;"	m	struct:fbinfo	file:
+win32_looper	sysdeps_win32.c	/^static EventLooperRec  win32_looper;$/;"	v	file:
+win_thread_func_t	sysdeps.h	/^typedef  void (*win_thread_func_t)(void*  arg);$/;"	t
+write	adb.c	159;"	d	file:
+write	adb.c	161;"	d	file:
+write	adb.c	164;"	d	file:
+write	adb.c	166;"	d	file:
+write	sysdeps.h	139;"	d
+write	sysdeps.h	140;"	d
+write	sysdeps.h	386;"	d
+write	sysdeps.h	387;"	d
+write	transport_local.c	195;"	d	file:
+write	transport_local.c	197;"	d	file:
+write	transport_local.c	200;"	d	file:
+write	transport_local.c	202;"	d	file:
+write	usb_linux_client.c	/^    int (*write)(usb_handle *h, const void *data, int len);$/;"	m	struct:usb_handle	file:
+write_data_buffer	file_sync_client.c	/^static int write_data_buffer(int fd, char* file_buffer, int size, syncsendbuf *sbuf)$/;"	f	file:
+write_data_file	file_sync_client.c	/^static int write_data_file(int fd, const char *path, syncsendbuf *sbuf)$/;"	f	file:
+write_data_link	file_sync_client.c	/^static int write_data_link(int fd, const char *path, syncsendbuf *sbuf)$/;"	f	file:
+write_fds	fdevent.c	/^static fd_set write_fds;$/;"	v	file:
+write_log_entry	log_service.c	/^void write_log_entry(int fd, struct logger_entry *buf)$/;"	f
+write_packet	transport.c	/^write_packet(int  fd, const char* name, apacket** ppacket)$/;"	f	file:
+write_public_keyfile	adb_auth_host.c	/^static int write_public_keyfile(RSA *private_key, const char *private_key_path)$/;"	f	file:
+write_string	remount_service.c	/^static void write_string(int fd, const char* str)$/;"	f	file:
+write_to_remote	adb.h	/^    int (*write_to_remote)(apacket *p, atransport *t);$/;"	m	struct:atransport
+writeable	usb_linux.c	/^    unsigned writeable;$/;"	m	struct:usb_handle	file:
+writex	transport.c	/^int writex(int fd, const void *ptr, size_t len)$/;"	f
+zero_mask	usb_libusb.c	/^    int                   zero_mask;$/;"	m	struct:usb_handle	file:
+zero_mask	usb_linux.c	/^    unsigned zero_mask;$/;"	m	struct:usb_handle	file:
+zero_mask	usb_osx.c	/^    unsigned int              zero_mask;$/;"	m	struct:usb_handle	file:
+zero_mask	usb_windows.c	/^  unsigned zero_mask;$/;"	m	struct:usb_handle	file:
