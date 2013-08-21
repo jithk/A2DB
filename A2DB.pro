@@ -12,7 +12,8 @@ QT       -= core gui network
 #greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = a2db
-TEMPLATE = app
+#TEMPLATE = app
+TEMPLATE = lib
 DEFINES += ADB_HOST
 DEFINES += ANDROID_SMP
 DEFINES += FAKE_LOG_DEVICE
